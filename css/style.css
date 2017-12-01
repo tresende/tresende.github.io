@@ -1,0 +1,18 @@
+
+.cenario {
+    background-image: url('../img/cinema-chair.png');
+    width: 51%;
+    height: 130px;
+    background-size: 36px;
+}
+.hi {
+    width: 30px;
+    height: 53px;
+    background-image: url('../img/small.jpg');
+    animation: play 5.3s steps(19) infinite;
+    border-bottom: 1px dashed;
+}
+@keyframes play {
+   from { background-position: 0px; margin-left:0px }
+     to { background-position: -642px; margin-left:300px }
+}
