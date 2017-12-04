@@ -6,15 +6,19 @@
     background-size: 36px;
 }
 
-.hi {
+
+#silvio-santos{
     width: 30px;
     height: 53px;
     background-image: url('../img/small.jpg');
-    animation: play 5.3s steps(19) infinite;
     border-bottom: 1px dashed;
 }
 
-@keyframes play {
+.walk{
+    animation: walk 5.3s steps(19) infinite;
+}
+
+@keyframes walk {
     from {
         background-position: 0px;
         margin-left: 0px;
