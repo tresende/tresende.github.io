@@ -3,7 +3,7 @@ var $ = require('gulp-load-plugins')({rename: {'gulp-rev-delete-original':'revde
 
 /* Tasks base */
 gulp.task('copy', function() {
-    return gulp.src(['src/assets/{img,font,video}/**/*'], {base: 'src'})
+    return gulp.src(['src/assets/{img,font,video,ico}/**/*'], {base: 'src'})
         .pipe(gulp.dest('dist'));
 });
 
