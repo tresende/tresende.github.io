@@ -20,16 +20,22 @@
 }
 
 .box {
-    width: 600px;
+    max-width: 600px;
     height: 600px;
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
     font-size: 1.2em;
     justify-content: space-around;
+}
+@media only screen and (max-width: 760px) {
+    .box {
+        height: 100vh;
+     }
 }
 
 .terminal,
 .path {
     margin-bottom: 10px;
+    white-space: nowrap;
 }
 
 .block {
@@ -40,7 +46,6 @@
 
 .file {
     justify-content: space-between;
-    height: 50vh;
 }
 
 .skills {
