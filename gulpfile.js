@@ -3,7 +3,7 @@ var $ = require('gulp-load-plugins')({rename: {'gulp-rev-delete-original':'revde
 
 /* Tasks base */
 gulp.task('copy', function() {
-    return gulp.src(['site/assets/{img,font}/**/*'], {base: 'site'})
+    return gulp.src(['src/assets/{img,font,video}/**/*'], {base: 'src'})
         .pipe(gulp.dest('dist'));
 });
 
@@ -14,26 +14,26 @@ gulp.task('clean', function() {
 
 /* Minificação */
 gulp.task('minify-js', function() {
-  return gulp.src('site/**/*.js')
+  return gulp.src('src/**/*.js')
     .pipe($.uglify())
     .pipe(gulp.dest('dist/'))
 });
 
 gulp.task('minify-css', function() {
-  return gulp.src('site/**/*.css')
+  return gulp.src('src/**/*.css')
     .pipe($.cssnano({safe: true}))
     .pipe(gulp.dest('dist/'))
 });
 
 gulp.task('minify-html', function() {
-  return gulp.src('site/**/*.html')
+  return gulp.src('src/**/*.html')
     .pipe($.htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist/'))
 });
 
 /* Concatenação */
 gulp.task('useref', function () {
-    return gulp.src('site/*.html')
+    return gulp.src('src/*.html')
         .pipe($.useref())
         .pipe($.if('*.html', $.inlineSource()))
         .pipe($.if('*.html', $.htmlmin({collapseWhitespace: true})))
@@ -44,7 +44,7 @@ gulp.task('useref', function () {
 
 /* Imagens */
 gulp.task('imagemin', function() {
-    return gulp.src('site/assets/img/*')
+    return gulp.src('src/assets/img/*')
         .pipe($.imagemin({
             progressive: true,
             svgoPlugins: [
