@@ -35,8 +35,9 @@ export default function Home() {
               - React <br />
               - Angular <br />
               - Node <br />
-              - C# <br />
-              - SNES <br />- Play bass
+              - Flutter <br />
+              - SNES <br />
+              - Play bass
             </p>
           </div>
           <div className="social-media">
