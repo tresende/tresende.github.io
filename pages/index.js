@@ -20,7 +20,7 @@ export default function Home() {
               ~/Projects/tresende.github.io{" "}
               <span className="branch">master*</span>
             </div>
-            <span className="cursor">❯</span>
+            <span className="cursor">❯ </span>
             <span className="command">cat readme.txt</span>
             <span className="block">_</span>
           </div>
