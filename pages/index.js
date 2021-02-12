@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
       <video preload="none" autoPlay muted loop className="background-video">
         <source
-          src="https://github.com/tresende/tresende.github.io/raw/master/src/assets/videos/bg.mp4"
+          src="https://raw.githubusercontent.com/tresende/tresende.github.io/master/public/videos/bg.mp4"
           type="video/mp4"
         />
       </video>
