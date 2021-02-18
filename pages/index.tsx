@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from 'next/head'
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         <div className="box flex">
           <div className="terminal">
             <div className="path">
-              ~/Projects/tresende.github.io{" "}
+              ~/Projects/tresende.github.io{' '}
               <span className="branch">master*</span>
             </div>
             <span className="cursor">❯ </span>
@@ -36,8 +36,7 @@ export default function Home() {
               - Angular <br />
               - Node <br />
               - Flutter <br />
-              - SNES <br />
-              - Play bass
+              - SNES <br />- Play bass
             </p>
           </div>
           <div className="social-media">
@@ -66,6 +65,5 @@ export default function Home() {
         </div>
       </div>
     </>
-  );
+  )
 }
-
