@@ -1,5 +1,7 @@
 import Head from 'next/head'
 
+import * as S from './styles'
+
 export default function Home() {
   return (
     <>
@@ -13,33 +15,33 @@ export default function Home() {
           type="video/mp4"
         />
       </video>
-      <div className="container flex">
-        <div className="box flex">
+      <S.Main className="flex">
+        <S.Container className="box flex">
           <div className="terminal">
-            <div className="path">
+            <S.Path className="path">
               ~/Projects/tresende.github.io{' '}
-              <span className="branch">master*</span>
-            </div>
-            <span className="cursor">❯ </span>
-            <span className="command">cat readme.txt</span>
-            <span className="block">_</span>
+              <S.Branch>master*</S.Branch>
+            </S.Path>
+            <S.Cursor>❯ </S.Cursor>
+            <span>cat readme.txt</span>
+            <S.Block>_</S.Block>
           </div>
           <div className="file flex">
-            <p>Hello, friend.</p>
-            <p>
+            <S.Bio>
+            Hello, friend.<br />
               My name is Thiago Resende. I'm a web developer living in Belo
               Horizonte, Brazil. I'm a fan of technology, programming, and
               coffee. These are my high-level skills:
-            </p>
-            <p className="skills">
+            </S.Bio>
+            <S.Skills>
               - React <br />
               - Angular <br />
               - Node <br />
               - Flutter <br />
               - SNES <br />- Play bass
-            </p>
+            </S.Skills>
           </div>
-          <div className="social-media">
+          <S.SocialMedia>
             <a href="https://github.com/tresende" target="_blank">
               <img src="/img/github.png" alt="Github icon" />
             </a>
@@ -61,9 +63,9 @@ export default function Home() {
             <a href="https://www.instagram.com/thiago.gcr/" target="_blank">
               <img src="/img/instragram.png" alt="Instagram icon" />
             </a>
-          </div>
-        </div>
-      </div>
+          </S.SocialMedia>
+        </S.Container>
+      </S.Main>
     </>
   )
 }

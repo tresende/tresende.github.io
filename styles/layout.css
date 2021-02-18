@@ -1,3 +1,27 @@
+/*
+
+                                                      \__|
+ $$$$$$\   $$$$$$\  $$$$$$\$$$$\   $$$$$$\ $$\    $$\ $$\ $$$$$$$\   $$$$$$\
+$$  __$$\ $$  __$$\ $$  _$$  _$$\ $$  __$$\\$$\  $$  |$$ |$$  __$$\ $$  __$$\
+$$ |  \__|$$$$$$$$ |$$ / $$ / $$ |$$ /  $$ |\$$\$$  / $$ |$$ |  $$ |$$ /  $$ |
+$$ |      $$   ____|$$ | $$ | $$ |$$ |  $$ | \$$$  /  $$ |$$ |  $$ |$$ |  $$ |
+$$ |      \$$$$$$$\ $$ | $$ | $$ |\$$$$$$  |  \$  /   $$ |$$ |  $$ |\$$$$$$$ |
+\__|       \_______|\__| \__| \__| \______/    \_/    \__|\__|  \__| \____$$ |
+                                                                    $$\   $$ |
+                                                                    \$$$$$$  |
+                                                                     \______/
+  $$\     $$\       $$\                  $$$$$$\  $$\ $$\
+  $$ |    $$ |      \__|                $$  __$$\ \__|$$ |
+$$$$$$\   $$$$$$$\  $$\  $$$$$$$\       $$ /  \__|$$\ $$ | $$$$$$\
+\_$$  _|  $$  __$$\ $$ |$$  _____|      $$$$\     $$ |$$ |$$  __$$\
+  $$ |    $$ |  $$ |$$ |\$$$$$$\        $$  _|    $$ |$$ |$$$$$$$$ |
+  $$ |$$\ $$ |  $$ |$$ | \____$$\       $$ |      $$ |$$ |$$   ____|
+  \$$$$  |$$ |  $$ |$$ |$$$$$$$  |      $$ |      $$ |$$ |\$$$$$$$\
+   \____/ \__|  \__|\__|\_______/       \__|      \__|\__| \_______|
+
+
+*/
+
 .flex {
     display: flex;
     flex-direction: column;
@@ -20,38 +44,15 @@
 }
 
 .box {
-    max-width: 600px;
-    height: 600px;
-    padding: 40px 40px 0px 40px;
-    font-size: 1.2em;
+    max-width: 40rem;
+    height: 38rem;
+    padding: 4rem;
+    font-size: 1.2rem;
     justify-content: space-around;
-}
-@media only screen and (max-width: 760px) {
-    .box {
-        height: 100vh;
-     }
 }
 
 .terminal,
 .path {
     margin-bottom: 10px;
     white-space: nowrap;
-}
-
-.block {
-    animation-name: blink;
-    animation-duration: 700ms;
-    animation-iteration-count: infinite;
-}
-
-.file {
-    justify-content: space-between;
-}
-
-.skills {
-    line-height: 40px;
-}
-
-.social-media {
-    text-align: center;
 }
