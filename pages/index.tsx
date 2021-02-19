@@ -31,7 +31,8 @@ export default function Home() {
               <br />
               My name is Thiago Resende. I'm a web developer living in Belo
               Horizonte, Brazil. I'm a fan of technology, programming, and
-              coffee. These are my high-level skills: - React <br />
+              coffee. These are my high-level skills: <br />
+              - React <br />
               - Angular <br />
               - Node <br />
               - Flutter <br />
