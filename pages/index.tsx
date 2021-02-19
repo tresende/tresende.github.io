@@ -19,8 +19,7 @@ export default function Home() {
         <S.Container className="box flex">
           <div className="terminal">
             <S.Path className="path">
-              ~/Projects/tresende.github.io{' '}
-              <S.Branch>master*</S.Branch>
+              ~/Projects/tresende.github.io <S.Branch>master*</S.Branch>
             </S.Path>
             <S.Cursor>❯ </S.Cursor>
             <span>cat readme.txt</span>
@@ -28,19 +27,16 @@ export default function Home() {
           </div>
           <div className="flex">
             <S.Bio>
-              Hello, friend.<br />
+              Hello, friend.
+              <br />
               My name is Thiago Resende. I'm a web developer living in Belo
               Horizonte, Brazil. I'm a fan of technology, programming, and
-              coffee. These are my high-level skills:
-            </S.Bio>
-            <S.Skills>
-              - React <br />
+              coffee. These are my high-level skills: - React <br />
               - Angular <br />
               - Node <br />
               - Flutter <br />
-              - SNES <br />
-              - Play bass
-            </S.Skills>
+              - SNES <br />- Play bass
+            </S.Bio>
           </div>
           <S.SocialMedia>
             <a href="https://github.com/tresende" target="_blank">

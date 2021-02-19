@@ -5,12 +5,6 @@ export const Paragraph = styled.p`
 `
 
 export const Bio = styled.p`
-  font-weight: bold;
-  line-height: 2.3rem;
-`
-
-export const Skills = styled.p`
-  font-weight: bold;
   line-height: 2rem;
 `
 
