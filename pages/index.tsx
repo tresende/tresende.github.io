@@ -26,9 +26,9 @@ export default function Home() {
             <span>cat readme.txt</span>
             <S.Block>_</S.Block>
           </div>
-          <div className="file flex">
+          <div className="flex">
             <S.Bio>
-            Hello, friend.<br />
+              Hello, friend.<br />
               My name is Thiago Resende. I'm a web developer living in Belo
               Horizonte, Brazil. I'm a fan of technology, programming, and
               coffee. These are my high-level skills:
@@ -38,7 +38,8 @@ export default function Home() {
               - Angular <br />
               - Node <br />
               - Flutter <br />
-              - SNES <br />- Play bass
+              - SNES <br />
+              - Play bass
             </S.Skills>
           </div>
           <S.SocialMedia>

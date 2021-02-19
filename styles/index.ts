@@ -4,12 +4,14 @@ export const Paragraph = styled.p`
   line-height: 2rem;
 `
 
-export const Skills = styled.p`
-  line-height: 2rem;
+export const Bio = styled.p`
+  font-weight: bold;
+  line-height: 2.3rem;
 `
 
-export const Bio = styled.p`
-  line-height: 2.3rem;
+export const Skills = styled.p`
+  font-weight: bold;
+  line-height: 2rem;
 `
 
 export const Main = styled.main`
