@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import * as S from './styles'
+import * as S from '../styles'
 
 export default function Home() {
   return (
