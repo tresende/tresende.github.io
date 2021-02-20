@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>(2) Whatsapp</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <video preload="none" autoPlay muted loop className="background-video">
         <source
