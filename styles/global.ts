@@ -4,7 +4,10 @@ import {
   createGlobalStyle
 } from 'styled-components'
 
-const GlobalStyles: GlobalStyleComponent<{}, DefaultTheme> = createGlobalStyle`
+const GlobalStyles: GlobalStyleComponent<
+  null,
+  DefaultTheme
+> = createGlobalStyle`
 
 @font-face {
     font-family: 'Open Sans';

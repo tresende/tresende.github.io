@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "lint": "eslint src --max-warnings=0",
+    "lint": "eslint . --max-warnings=0",
     "build": "next build",
     "start": "next start"
   },
   "husky": {
     "hooks": {
-      "pre-commit": ""
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {

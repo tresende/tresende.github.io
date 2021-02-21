@@ -30,8 +30,8 @@ export default function Home() {
             <S.Bio>
               Hello, friend.
               <br />
-              My name is Thiago Resende. I'm a web developer living in Belo
-              Horizonte, Brazil. I'm a fan of technology, programming, and
+              My name is Thiago Resende. I&apos;m a web developer living in Belo
+              Horizonte, Brazil. I&apos;m a fan of technology, programming, and
               coffee. These are my high-level skills: <br />
               - React <br />
               - Angular <br />
