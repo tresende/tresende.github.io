@@ -65,5 +65,8 @@ export const Block = styled.span`
 `
 
 export const SocialMedia = styled.div`
-  text-align: center;
+  display: flex;
+  width: 11rem;
+  justify-content: space-between;
+  margin: 0 auto;
 `
