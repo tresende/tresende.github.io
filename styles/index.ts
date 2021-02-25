@@ -1,14 +1,12 @@
 import styled from 'styled-components'
 
-export const Paragraph = styled.p`
-  line-height: 2rem;
+export const Video = styled.video`
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 `
-
-export const Bio = styled.p`
-  display: flex;
-  line-height: 2rem;
-`
-
 export const Main = styled.main`
   height: 100%;
   width: 100%;
@@ -39,6 +37,7 @@ export const Container = styled.section`
     padding: 2rem;
   }
 `
+
 export const InlineText = styled.div`
   margin-bottom: 10px;
   white-space: nowrap;
@@ -50,16 +49,12 @@ export const Path = styled(InlineText)`
   color: greenyellow;
 `
 
-export const Cursor = styled.span`
-  color: aqua;
-`
-
-export const Command = styled.span`
-  color: aqua;
-`
-
 export const Branch = styled.span`
   color: gray;
+`
+
+export const Cursor = styled.span`
+  color: aqua;
 `
 
 export const Block = styled.span`
@@ -81,18 +76,14 @@ export const Block = styled.span`
     }
   }
 `
+export const Bio = styled.p`
+  display: flex;
+  line-height: 2rem;
+`
 
 export const SocialMedia = styled.div`
   display: flex;
   width: 11rem;
   justify-content: space-between;
   margin: 0 auto;
-`
-
-export const Video = styled.video`
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
 `
