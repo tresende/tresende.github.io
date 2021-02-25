@@ -36,6 +36,7 @@ export const Container = styled.section`
 
   @media only screen and (max-width: 760px) {
     height: 100vh;
+    padding: 2rem;
   }
 `
 export const InlineText = styled.div`
