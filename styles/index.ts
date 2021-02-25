@@ -2,19 +2,20 @@ import styled from 'styled-components'
 
 export const Video = styled.video`
   position: fixed;
-  right: 0;
-  bottom: 0;
+  left: 0;
+  top: 0;
   min-width: 100%;
   min-height: 100%;
 `
+
 export const Main = styled.main`
   height: 100%;
   width: 100%;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: fixed;
   background-color: rgba(0, 0, 0, 0.6);
   @media only screen and (max-width: 760px) {
     background-color: rgba(0, 0, 0, 0.7);
@@ -24,13 +25,13 @@ export const Main = styled.main`
 export const Container = styled.section`
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   max-width: 40rem;
-  height: 38rem;
   padding: 4rem;
   font-size: 1.2rem;
-  justify-content: space-around;
 
   @media only screen and (max-width: 760px) {
     height: 100vh;
@@ -39,7 +40,7 @@ export const Container = styled.section`
 `
 
 export const InlineText = styled.div`
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   white-space: nowrap;
 `
 
@@ -83,7 +84,7 @@ export const Bio = styled.p`
 
 export const SocialMedia = styled.div`
   display: flex;
-  width: 11rem;
   justify-content: space-between;
   margin: 0 auto;
+  width: 11rem;
 `
