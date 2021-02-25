@@ -10,36 +10,34 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <video preload="none" autoPlay muted loop className="background-video">
+      <S.Video preload="none" autoPlay muted loop>
         <source
           src="https://raw.githubusercontent.com/tresende/tresende.github.io/master/public/videos/bg.mp4"
           type="video/mp4"
         />
-      </video>
-      <S.Main className="flex">
-        <S.Container className="box flex">
-          <div className="terminal">
-            <S.Path className="path">
+      </S.Video>
+      <S.Main>
+        <S.Container className="flex">
+          <S.Terminal>
+            <S.Path>
               ~/Projects/tresende.github.io <S.Branch>master*</S.Branch>
             </S.Path>
             <S.Cursor>❯ </S.Cursor>
             <span>cat readme.txt</span>
             <S.Block>_</S.Block>
-          </div>
-          <div className="flex">
-            <S.Bio>
-              Hello, friend.
-              <br />
-              My name is Thiago Resende. I&apos;m a frontend developer living in
-              Belo Horizonte, Brazil. I&apos;m a fan of technology, programming,
-              and coffee. These are my high-level skills: <br />
-              - React <br />
-              - Angular <br />
-              - Node <br />
-              - Flutter <br />
-              - SNES <br />- Play bass
-            </S.Bio>
-          </div>
+          </S.Terminal>
+          <S.Bio>
+            Hello, friend.
+            <br />
+            My name is Thiago Resende. I&apos;m a frontend developer living in
+            Belo Horizonte, Brazil. I&apos;m a fan of technology, programming,
+            and coffee. These are my high-level skills: <br />
+            - React <br />
+            - Angular <br />
+            - Node <br />
+            - Flutter <br />
+            - SNES <br />- Play bass
+          </S.Bio>
           <S.SocialMedia>
             <a
               href="https://github.com/tresende"

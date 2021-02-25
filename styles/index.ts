@@ -5,12 +5,15 @@ export const Paragraph = styled.p`
 `
 
 export const Bio = styled.p`
+  display: flex;
   line-height: 2rem;
 `
 
 export const Main = styled.main`
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -21,14 +24,28 @@ export const Main = styled.main`
 `
 
 export const Container = styled.section`
+  display: flex;
+  flex-direction: column;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
+  max-width: 40rem;
+  height: 38rem;
+  padding: 4rem;
+  font-size: 1.2rem;
+  justify-content: space-around;
+
   @media only screen and (max-width: 760px) {
     height: 100vh;
   }
 `
+export const InlineText = styled.div`
+  margin-bottom: 10px;
+  white-space: nowrap;
+`
 
-export const Path = styled.div`
+export const Terminal = styled(InlineText)``
+
+export const Path = styled(InlineText)`
   color: greenyellow;
 `
 
@@ -69,4 +86,12 @@ export const SocialMedia = styled.div`
   width: 11rem;
   justify-content: space-between;
   margin: 0 auto;
+`
+
+export const Video = styled.video`
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 `
