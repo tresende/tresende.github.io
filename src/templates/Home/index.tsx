@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <S.Video preload="none" autoPlay muted loop>
         <source
-          src="https://raw.githubusercontent.com/tresende/tresende.github.io/master/public/videos/bg-min.mp4"
+          src="https://raw.githubusercontent.com/tresende/tresende.github.io/master/public/videos/bg.mp4"
           type="video/mp4"
         />
       </S.Video>
