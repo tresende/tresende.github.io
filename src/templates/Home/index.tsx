@@ -20,7 +20,7 @@ export default function Home() {
         <S.Container className="flex">
           <S.Terminal>
             <S.Path>
-              ~/Projects/tresende.github.io <S.Branch>master*</S.Branch>
+              ~/Projects/tresende.github.io <S.Branch>main*</S.Branch>
             </S.Path>
             <S.Cursor>❯ </S.Cursor>
             <span>cat readme.txt</span>
