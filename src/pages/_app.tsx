@@ -1,5 +1,6 @@
 import React from 'react'
-import GlobalStyles from '../styles/global'
+import GithubCorner from 'react-github-corner'
+import GlobalStyles from './global'
 import { AppProps } from 'next/dist/next-server/lib/router/router'
 
 function App({ Component, pageProps }: AppProps) {
@@ -21,6 +22,11 @@ function App({ Component, pageProps }: AppProps) {
           `
         }}
       ></script>
+      <GithubCorner
+        bannerColor="greenyellow"
+        octoColor="#000"
+        href="https://github.com/tresende/tresende.github.io"
+      />
     </>
   )
 }

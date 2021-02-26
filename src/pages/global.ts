@@ -38,6 +38,11 @@ body {
   font-family: 'Open Sans';
   background-image: url(/img/fake-bg.png);
 }
+@media only screen and (max-width: 760px) {
+  .github-corner{
+    display:none
+  }
+}
 
 `
 
