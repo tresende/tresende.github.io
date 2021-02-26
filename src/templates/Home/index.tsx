@@ -44,35 +44,35 @@ export default function Home() {
               rel="noreferrer"
               target="_blank"
             >
-              <img src="/img/github.png" alt="Github icon" />
+              <img src="/img/github-min.png" alt="Github icon" />
             </a>
             <a
               href="https://www.linkedin.com/in/thiago-resende-46175391"
               rel="noreferrer"
               target="_blank"
             >
-              <img src="/img/linkedin.png" alt="Linkedin icon" />
+              <img src="/img/linkedin-min.png" alt="Linkedin icon" />
             </a>
             <a
               href="mailto:thiago.gcresende@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/img/email.png" alt="Mail icon" />
+              <img src="/img/email-min.png" alt="Mail icon" />
             </a>
             <a
               rel="noreferrer"
               href="https://www.facebook.com/thiagooooooooooooooo"
               target="_blank"
             >
-              <img src="/img/facebook.png" alt="Facebook icon" />
+              <img src="/img/facebook-min.png" alt="Facebook icon" />
             </a>
             <a
               href="https://www.instagram.com/thiago.gcr/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/img/instragram.png" alt="Instagram icon" />
+              <img src="/img/instragram-min.png" alt="Instagram icon" />
             </a>
           </S.SocialMedia>
         </S.Container>
