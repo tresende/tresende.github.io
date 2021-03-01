@@ -30,7 +30,7 @@ export default function Home() {
             Hello, friend.
             <br />
             My name is Thiago Resende. I&apos;m a frontend developer living in
-            Belo Horizonte, Brazil. I&apos;m a technology fan 👨‍💻, programming,
+            Belo Horizonte, Brazil. I&apos;m a technology fan, programming 👨‍💻,
             and coffee. These are my high-level skills: <br />
             - React <br />
             - Angular <br />
