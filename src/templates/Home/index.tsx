@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import SocialLink from 'components/SocialLink'
 
 import * as S from './styles'
 
@@ -36,44 +37,24 @@ export default function Home() {
             - Angular <br />
             - Node <br />
             - Flutter <br />
-            - SNES <br />- Play bass
+            - SNES <br />
+            - Play bass <br />
           </S.Bio>
           <S.SocialMedia>
-            <a
-              href="https://github.com/tresende"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <img src="/img/github-min.png" alt="Github icon" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/thiago-resende-46175391"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <img src="/img/linkedin-min.png" alt="Linkedin icon" />
-            </a>
-            <a
-              href="mailto:thiago.gcresende@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src="/img/email-min.png" alt="Mail icon" />
-            </a>
-            <a
-              rel="noreferrer"
-              href="https://www.facebook.com/thiagooooooooooooooo"
-              target="_blank"
-            >
-              <img src="/img/facebook-min.png" alt="Facebook icon" />
-            </a>
-            <a
-              href="https://www.instagram.com/thiago.gcr/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src="/img/instragram-min.png" alt="Instagram icon" />
-            </a>
+            <SocialLink url="https://github.com/tresende" name="github" />
+            <SocialLink
+              url="https://www.linkedin.com/in/thiago-resende-46175391"
+              name="linkedin"
+            />
+            <SocialLink url="mailto:thiago.gcresende@gmail.com" name="email" />
+            <SocialLink
+              url="https://www.instagram.com/thiago.gcr"
+              name="instagram"
+            />
+            <SocialLink
+              url="https://www.facebook.com/thiagooooooooooooooo"
+              name="facebook"
+            />
           </S.SocialMedia>
         </S.Container>
       </S.Main>
