@@ -1,22 +1,22 @@
-import React from 'react'
-
 import * as S from './styles'
 
-const Bio = () => {
-  return (
-    <S.Wrapper>
-      Hello, friend.
-      <br />
+const Bio = () => (
+  <S.Wrapper>
+    <p>Hello, friend.</p>
+    <p>
       My name is Thiago Resende. I&apos;m a frontend developer living in Belo
       Horizonte, Brazil. I&apos;m a technology fan 💾, programming 👨‍💻, and
-      coffee ☕️. These are my high-level skills: <br />
-      - React <br />
-      - Angular <br />
-      - Node <br />
-      - Flutter <br />
-      - SNES <br />
-      - Play bass <br />
-    </S.Wrapper>
-  )
-}
+      coffee ☕️. These are my high-level skills:
+    </p>
+    <S.SkillContainer>
+      <S.Skill>React</S.Skill>
+      <S.Skill>Angular</S.Skill>
+      <S.Skill>Node</S.Skill>
+      <S.Skill>Flutter</S.Skill>
+      <S.Skill>SNES</S.Skill>
+      <S.Skill>Bass</S.Skill>
+    </S.SkillContainer>
+  </S.Wrapper>
+)
+
 export default Bio
