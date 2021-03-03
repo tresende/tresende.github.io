@@ -5,7 +5,6 @@ export const Main = styled.main`
   width: 100%;
   position: fixed;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.6);
@@ -18,13 +17,10 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   max-width: 40rem;
   padding: 4rem;
-  font-size: 1.2rem;
-
   @media only screen and (max-width: 760px) {
     height: 100vh;
     padding: 2rem;
