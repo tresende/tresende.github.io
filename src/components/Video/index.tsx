@@ -1,7 +1,7 @@
 import * as S from './styles'
 
 const Bio = () => (
-  <S.Wrapper preload="none" autoPlay muted loop>
+  <S.Wrapper preload="auto" autoPlay muted loop>
     <source
       src="https://raw.githubusercontent.com/tresende/tresende.github.io/master/public/videos/bg.mp4"
       type="video/mp4"
