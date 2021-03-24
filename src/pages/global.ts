@@ -16,12 +16,6 @@ const GlobalStyles: GlobalStyleComponent<null, DefaultTheme> = createGlobalStyle
 body {
   font-family: 'Open Sans';
 }
-@media only screen and (max-width: 760px) {
-  .github-corner{
-    display:none
-  }
-}
-
 `
 
 export default GlobalStyles
