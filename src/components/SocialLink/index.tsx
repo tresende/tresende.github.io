@@ -5,7 +5,7 @@ export type SocialLinkProps = {
 
 const SocialLink = ({ name, url }: SocialLinkProps) => (
   <a href={url} target="_blank" rel="noreferrer">
-    <img src={`/img/${name}-min.png`} alt={`${name} icon`} />
+    <img width="32" height="32" src={`/img/${name}-min.png`} alt={`${name} icon`} />
   </a>
 )
 
