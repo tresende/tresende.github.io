@@ -12,14 +12,3 @@ updates:
   - tresende
   labels:
   - dependencies
-  ignore:
-  - dependency-name: typescript
-    versions:
-    - 4.3.0-dev.20210422
-    - 4.3.0-dev.20210427
-  - dependency-name: "@types/node"
-    versions:
-    - 15.0.0
-  - dependency-name: "@babel/runtime"
-    versions:
-    - 7.13.17
