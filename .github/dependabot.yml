@@ -1,0 +1,14 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  target-branch: main
+  reviewers:
+  - tresende
+  assignees:
+  - tresende
+  labels:
+  - dependencies
