@@ -1,11 +1,14 @@
 import { AppProps } from 'next/dist/next-server/lib/router/router'
+import { DefaultSeo } from 'next-seo'
 
+import SEO from '../../next-seo.config'
+import Head from 'components/Head'
 import GlobalStyles from './global'
 
 const App = ({ Component, pageProps }: AppProps) => (
   <>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <Head />
+    <DefaultSeo {...SEO} />
     <GlobalStyles />
     <Component {...pageProps} />
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133675841-1"></script>

@@ -1,4 +1,3 @@
-import Head from 'components/Head'
 import Video from 'components/Video'
 import Terminal from 'components/Terminal'
 import Bio from 'components/Bio'
@@ -9,7 +8,6 @@ import * as S from './styles'
 
 const Home = () => (
   <>
-    <Head />
     <Video />
     <S.Main>
       <S.Container>
