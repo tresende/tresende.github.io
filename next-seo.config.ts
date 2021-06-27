@@ -3,8 +3,8 @@ export default {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.thiagoresende.com',
-    site_name: "Thiago's site",
-    title: "Thiago's site"
+    site_name: "Thiago Resende",
+    title: "Thiago Resende"
   },
   twitter: {
     handle: '@thiagorgcr',
