@@ -6,5 +6,4 @@ export const Wrapper = styled.video`
   top: 0;
   min-width: 100%;
   min-height: 100%;
-  background-image: url(/img/fake-bg-min.png);
 `
