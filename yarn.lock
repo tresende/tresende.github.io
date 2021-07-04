@@ -798,10 +798,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
-"@types/react@*", "@types/react@^17.0.11":
-  version "17.0.11"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.11.tgz#67fcd0ddbf5a0b083a0f94e926c7d63f3b836451"
-  integrity sha512-yFRQbD+whVonItSk7ZzP/L+gPTJVBkL/7shLEF+i9GC/1cV3JmUxEQz6+9ylhUpWSDuqo1N9qEvqS6vTj4USUA==
+"@types/react@*", "@types/react@^17.0.13":
+  version "17.0.13"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.13.tgz#6b7c9a8f2868586ad87d941c02337c6888fb874f"
+  integrity sha512-D/G3PiuqTfE3IMNjLn/DCp6umjVCSvtZTPdtAFy5+Ved6CsdRvivfKeCzw79W4AatShtU4nGqgvOv5Gro534vQ==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -4768,10 +4768,10 @@ signal-exit@^3.0.2, signal-exit@^3.0.3:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
-simple-git-hooks@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/simple-git-hooks/-/simple-git-hooks-2.4.1.tgz#bb3495610701394d00ce4a84892a9ca8aad73710"
-  integrity sha512-LFdiF7O0Hg96vS1mO8gtBiDXLkCrLhqpU7O3gMZVO90Uf+/VFY4C5VJITyXPbHNX6OnlFmiFR0YnV4XbfguZHA==
+simple-git-hooks@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/simple-git-hooks/-/simple-git-hooks-2.5.1.tgz#78ed9cfa552843bc45cd36ad5b7424567119c2f4"
+  integrity sha512-iI/MEEVObv45slsxz+BT+5NCS2UDgVIqfQKmNjL4/XnEfacpdYAHd71Imc5Nw/FY100A+i1PIXdIdkLHYcC2Bg==
 
 sisteransi@^1.0.5:
   version "1.0.5"
