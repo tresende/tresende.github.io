@@ -36,7 +36,7 @@
     "@babel/runtime": "^7.14.6",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.14",
-    "@types/styled-components": "^5.1.9",
+    "@types/styled-components": "^5.1.11",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.1",
     "babel-loader": "^8.2.2",
