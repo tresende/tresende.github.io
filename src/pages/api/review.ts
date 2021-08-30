@@ -5,7 +5,6 @@ import { NextApiRequest, NextApiResponse } from 'next'
 import Mock from 'mocks/mock'
 import initMiddleware from '../../lib/init-middleware'
 
-// Initialize the cors middleware
 const cors = initMiddleware(
   Cors({
     origin: '*',
