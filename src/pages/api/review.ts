@@ -15,8 +15,10 @@ const cors = initMiddleware(
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   await cors(req, res)
   if (req.method === 'POST') {
-    await request.post('https://borc-9faa2-default-rtdb.firebaseio.com/review.json', { json: req.body })
-    await res.send(req.body)
+    request.post('https://borc-9faa2-default-rtdb.firebaseio.com/review.json', { json: req.body }, (err) => {
+      console.error(err)
+      res.send(req.body)
+    })
   } else {
     res.send(Mock)
   }
