@@ -14,7 +14,7 @@ const GlobalStyles: GlobalStyleComponent<null, DefaultTheme> = createGlobalStyle
 }
 
 body {
-  font-family: 'Open Sans';
+  font-family: 'Tahoma';
 }
 `
 
