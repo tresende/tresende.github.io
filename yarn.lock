@@ -3459,10 +3459,10 @@ jest-snapshot@^27.3.1:
     pretty-format "^27.3.1"
     semver "^7.3.2"
 
-jest-styled-components@^7.0.5:
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/jest-styled-components/-/jest-styled-components-7.0.5.tgz#6da3f1a1c8bd98bccc6bcf9aabfdefdcd88fd92c"
-  integrity sha512-ZR/r3IKNkgaaVIOThn0Qis4sNQtA352qHjhbxSHeLS3FDIvHSUSJoI2b3kzk+bHHQ1VOeV630usERtnyhyZh4A==
+jest-styled-components@^7.0.7:
+  version "7.0.7"
+  resolved "https://registry.yarnpkg.com/jest-styled-components/-/jest-styled-components-7.0.7.tgz#8eb1c0a64278b06222df0e749e561dba4e771057"
+  integrity sha512-iisbHp0X5n61gSjHuzBdqeMtQpg31Lmq+J06LjWfYPYIo3AC1h2oGdF5A7Os2F8TpRaS/RtdimpZ8OwxkEiKJg==
   dependencies:
     css "^3.0.0"
 
