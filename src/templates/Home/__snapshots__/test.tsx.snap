@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render all components 1`] = `
+@media only screen and (max-width:760px) {
+
+}
+
+<div
+  data-testid="video"
+/>
+`;

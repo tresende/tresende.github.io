@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Terminal /> should start in branch main 1`] = `
+.c0 {
+  margin-bottom: 1rem;
+  white-space: nowrap;
+}
+
+.c1 {
+  color: greenyellow;
+}
+
+.c2 {
+  color: gray;
+}
+
+.c3 {
+  color: aqua;
+}
+
+.c4 {
+  -webkit-animation-name: blink;
+  animation-name: blink;
+  -webkit-animation-duration: 700ms;
+  animation-duration: 700ms;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c0 c1"
+  >
+    ~/Projects/tresende.github.io 
+    <span
+      class="c2"
+    >
+      main*
+    </span>
+  </div>
+  <span
+    class="c3"
+  >
+    ❯ 
+  </span>
+  <span>
+    cat readme.txt
+  </span>
+  <span
+    class="c4"
+  >
+    _
+  </span>
+</div>
+`;
