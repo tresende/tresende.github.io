@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Bio /> should render correctly 1`] = `
+.c0 {
+  line-height: 2rem;
+}
+
+.c1 {
+  list-style: none;
+}
+
+.c2::before {
+  content: '-';
+  padding-right: 0.5rem;
+}
+
+<div
+  class="c0"
+>
+  <p>
+    Hello, friend.
+  </p>
+  <p>
+    My name is Thiago Resende. I'm a software engineer living in Belo Horizonte, Brazil. I'm a technology fan, programming and coffee. These are my high-level skills:
+  </p>
+  <ul
+    class="c1"
+  >
+    <li
+      class="c2"
+    >
+      React
+    </li>
+    <li
+      class="c2"
+    >
+      Angular
+    </li>
+    <li
+      class="c2"
+    >
+      Node
+    </li>
+    <li
+      class="c2"
+    >
+      Flutter
+    </li>
+    <li
+      class="c2"
+    >
+      SNES
+    </li>
+    <li
+      class="c2"
+    >
+      Bass
+    </li>
+  </ul>
+</div>
+`;
