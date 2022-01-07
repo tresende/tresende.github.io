@@ -8,6 +8,6 @@ describe('<Github />', () => {
     const { container } = render(<Github />)
 
     expect(screen.getByRole('link')).toHaveAttribute('href', GITHUB_URL)
-    expect(container.firstChild).toMatchSnapshot()
+    expect(container).toMatchSnapshot()
   })
 })

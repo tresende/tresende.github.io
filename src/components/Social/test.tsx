@@ -7,6 +7,6 @@ describe('<Social />', () => {
     const { container } = render(<Social />)
 
     expect(screen.getAllByRole('link')).toHaveLength(5)
-    expect(container.firstChild).toMatchSnapshot()
+    expect(container).toMatchSnapshot()
   })
 })

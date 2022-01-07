@@ -27,31 +27,33 @@ exports[`<Terminal /> should start in branch main 1`] = `
   animation-iteration-count: infinite;
 }
 
-<div
-  class="c0"
->
+<div>
   <div
-    class="c0 c1"
+    class="c0"
   >
-    ~/Projects/tresende.github.io 
-    <span
-      class="c2"
+    <div
+      class="c0 c1"
     >
-      main*
+      ~/Projects/tresende.github.io 
+      <span
+        class="c2"
+      >
+        main*
+      </span>
+    </div>
+    <span
+      class="c3"
+    >
+      ❯ 
+    </span>
+    <span>
+      cat readme.txt
+    </span>
+    <span
+      class="c4"
+    >
+      _
     </span>
   </div>
-  <span
-    class="c3"
-  >
-    ❯ 
-  </span>
-  <span>
-    cat readme.txt
-  </span>
-  <span
-    class="c4"
-  >
-    _
-  </span>
 </div>
 `;

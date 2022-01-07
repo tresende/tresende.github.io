@@ -17,6 +17,6 @@ describe('<Home />', () => {
     expect(screen.getByTestId('social')).toBeInTheDocument()
     expect(screen.getByTestId('github')).toBeInTheDocument()
 
-    expect(container.firstChild).toMatchSnapshot()
+    expect(container).toMatchSnapshot()
   })
 })

@@ -14,48 +14,50 @@ exports[`<Bio /> should render bio with skills 1`] = `
   padding-right: 0.5rem;
 }
 
-<div
-  class="c0"
->
-  <p>
-    Hello, friend.
-  </p>
-  <p>
-    My name is Thiago Resende. I'm a software engineer living in Belo Horizonte, Brazil. I'm a technology fan, programming and coffee. These are my high-level skills:
-  </p>
-  <ul
-    class="c1"
+<div>
+  <div
+    class="c0"
   >
-    <li
-      class="c2"
+    <p>
+      Hello, friend.
+    </p>
+    <p>
+      My name is Thiago Resende. I'm a software engineer living in Belo Horizonte, Brazil. I'm a technology fan, programming and coffee. These are my high-level skills:
+    </p>
+    <ul
+      class="c1"
     >
-      React
-    </li>
-    <li
-      class="c2"
-    >
-      Angular
-    </li>
-    <li
-      class="c2"
-    >
-      Node
-    </li>
-    <li
-      class="c2"
-    >
-      Flutter
-    </li>
-    <li
-      class="c2"
-    >
-      SNES
-    </li>
-    <li
-      class="c2"
-    >
-      Bass
-    </li>
-  </ul>
+      <li
+        class="c2"
+      >
+        React
+      </li>
+      <li
+        class="c2"
+      >
+        Angular
+      </li>
+      <li
+        class="c2"
+      >
+        Node
+      </li>
+      <li
+        class="c2"
+      >
+        Flutter
+      </li>
+      <li
+        class="c2"
+      >
+        SNES
+      </li>
+      <li
+        class="c2"
+      >
+        Bass
+      </li>
+    </ul>
+  </div>
 </div>
 `;

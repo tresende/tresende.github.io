@@ -9,6 +9,6 @@ describe('<Bio />', () => {
     const { container } = render(<Bio />)
     skils.forEach((skill) => expect(screen.getByText(skill)).toBeInTheDocument())
 
-    expect(container.firstChild).toMatchSnapshot()
+    expect(container).toMatchSnapshot()
   })
 })

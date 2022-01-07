@@ -1,11 +1,73 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Home /> should render all components 1`] = `
-@media only screen and (max-width:760px) {
-
+.c0 {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.6);
 }
 
-<div
-  data-testid="video"
-/>
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  max-width: 40rem;
+  padding: 4rem;
+}
+
+@media only screen and (max-width:760px) {
+  .c1 {
+    height: 100vh;
+    padding: 2rem;
+  }
+}
+
+<div>
+  <div
+    data-testid="video"
+  />
+  <main
+    class="c0"
+  >
+    <section
+      class="c1"
+    >
+      <div
+        data-testid="terminal"
+      />
+      <div
+        data-testid="bio"
+      />
+      <div
+        data-testid="social"
+      />
+    </section>
+  </main>
+  <div
+    data-testid="github"
+  />
+</div>
 `;

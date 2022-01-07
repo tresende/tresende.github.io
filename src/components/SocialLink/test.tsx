@@ -13,6 +13,6 @@ describe('<SocialLink />', () => {
 
     expect(screen.getByRole('link')).toHaveAttribute('href', mock.githubUrl)
     expect(screen.getByRole('img')).toHaveAttribute('src', mock.icon)
-    expect(container.firstChild).toMatchSnapshot()
+    expect(container).toMatchSnapshot()
   })
 })

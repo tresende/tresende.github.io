@@ -7,7 +7,7 @@ describe('<Terminal />', () => {
     const { container } = render(<Terminal />)
 
     expect(screen.getByText(/main/i)).toBeInTheDocument()
-    expect(container.firstChild).toMatchSnapshot()
+    expect(container).toMatchSnapshot()
   })
 
   it('should view readme.txt', () => {

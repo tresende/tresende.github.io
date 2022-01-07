@@ -15,6 +15,6 @@ describe('<Video />', () => {
     const { container } = render(<Video />)
 
     expect(screen.getByRole('img', { name: 'busy avenue' })).toBeInTheDocument()
-    expect(container.firstChild).toMatchSnapshot()
+    expect(container).toMatchSnapshot()
   })
 })
