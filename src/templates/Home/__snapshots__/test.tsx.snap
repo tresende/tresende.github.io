@@ -2,6 +2,66 @@
 
 exports[`<Home /> should render all components 1`] = `
 .c0 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.c3 {
+  margin-bottom: 1rem;
+  white-space: nowrap;
+}
+
+.c4 {
+  color: greenyellow;
+}
+
+.c5 {
+  color: gray;
+}
+
+.c6 {
+  color: aqua;
+}
+
+.c7 {
+  -webkit-animation-name: blink;
+  animation-name: blink;
+  -webkit-animation-duration: 700ms;
+  animation-duration: 700ms;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.c8 {
+  line-height: 2rem;
+}
+
+.c9 {
+  list-style: none;
+}
+
+.c10::before {
+  content: '-';
+  padding-right: 0.5rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 11rem;
+}
+
+.c1 {
   height: 100%;
   width: 100%;
   position: fixed;
@@ -20,7 +80,7 @@ exports[`<Home /> should render all components 1`] = `
   background-color: rgba(0,0,0,0.6);
 }
 
-.c1 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -39,35 +99,295 @@ exports[`<Home /> should render all components 1`] = `
 }
 
 @media only screen and (max-width:760px) {
-  .c1 {
+  .c12 .github-corner {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:760px) {
+  .c2 {
     height: 100vh;
     padding: 2rem;
   }
 }
 
 <div>
-  <div
-    data-testid="video"
-  />
-  <main
+  <video
+    autoplay=""
     class="c0"
+    loop=""
+    preload="auto"
+  >
+    <span
+      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+    >
+      <img
+        alt="busy avenue"
+        data-nimg="fill"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+      />
+      <noscript />
+    </span>
+    <source
+      src="/videos/bg.mp4"
+      type="video/mp4"
+    />
+  </video>
+  <main
+    class="c1"
   >
     <section
-      class="c1"
+      class="c2"
     >
       <div
-        data-testid="terminal"
-      />
+        class="c3"
+      >
+        <div
+          class="c3 c4"
+        >
+          ~/Projects/tresende.github.io 
+          <span
+            class="c5"
+          >
+            main*
+          </span>
+        </div>
+        <span
+          class="c6"
+        >
+          ❯ 
+        </span>
+        <span>
+          cat readme.txt
+        </span>
+        <span
+          class="c7"
+        >
+          _
+        </span>
+      </div>
       <div
-        data-testid="bio"
-      />
-      <div
-        data-testid="social"
-      />
+        class="c8"
+      >
+        <p>
+          Hello, friend.
+        </p>
+        <p>
+          My name is Thiago Resende. I'm a software engineer living in Belo Horizonte, Brazil. I'm a technology fan, programming and coffee. These are my high-level skills:
+        </p>
+        <ul
+          class="c9"
+        >
+          <li
+            class="c10"
+          >
+            React
+          </li>
+          <li
+            class="c10"
+          >
+            Angular
+          </li>
+          <li
+            class="c10"
+          >
+            Node
+          </li>
+          <li
+            class="c10"
+          >
+            Flutter
+          </li>
+          <li
+            class="c10"
+          >
+            SNES
+          </li>
+          <li
+            class="c10"
+          >
+            Bass
+          </li>
+        </ul>
+      </div>
+      <footer
+        class="c11"
+      >
+        <a
+          href="https://github.com/tresende"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="github icon"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/thiago-resende-46175391"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="linkedin icon"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </a>
+        <a
+          href="mailto:thiago.gcresende@gmail.com"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="email icon"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </a>
+        <a
+          href="https://www.instagram.com/thiago.gcr"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="instagram icon"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </a>
+        <a
+          href="https://www.facebook.com/thiagooooooooooooooo"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="facebook icon"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </a>
+      </footer>
     </section>
   </main>
   <div
-    data-testid="github"
-  />
+    class="c12"
+  >
+    <a
+      aria-label="Open GitHub project"
+      class="github-corner"
+      href="https://github.com/tresende/tresende.github.io"
+    >
+      <svg
+        height="80"
+        style="position: absolute; top: 0px; fill: #000; right: 0px;"
+        viewBox="0 0 250 250"
+        width="80"
+      >
+        <path
+          class="octo-banner"
+          d="M0 0l115 115h15l12 27 108 108V0z"
+          fill="greenyellow"
+        />
+        <path
+          class="octo-arm"
+          d="M128 109c-15-9-9-19-9-19 3-7 2-11 2-11-1-7 3-2 3-2 4 5 2 11 2 11-3 10 5 15 9 16"
+          style="transform-origin: 130px 106px;"
+        />
+        <path
+          class="octo-body"
+          d="M115 115s4 2 5 0l14-14c3-2 6-3 8-3-8-11-15-24 2-41 5-5 10-7 16-7 1-2 3-7 12-11 0 0 5 3 7 16 4 2 8 5 12 9s7 8 9 12c14 3 17 7 17 7-4 8-9 11-11 11 0 6-2 11-7 16-16 16-30 10-41 2 0 3-1 7-5 11l-12 11c-1 1 1 5 1 5z"
+        />
+      </svg>
+    </a>
+  </div>
 </div>
 `;
