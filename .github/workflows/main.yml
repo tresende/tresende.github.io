@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - run: npm install
-      - run: npm run build
-#https://github.com/chuddyjoachim/next-url/blob/main/.github/workflows/deploy.yml
+      - run: yarn
+      - run: yarn type-check
+      - run: yarn test
