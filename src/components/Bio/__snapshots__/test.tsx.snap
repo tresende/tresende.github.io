@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Bio /> should render correctly 1`] = `
+exports[`<Bio /> should render bio with skills 1`] = `
 .c0 {
   line-height: 2rem;
 }
