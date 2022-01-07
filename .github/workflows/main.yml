@@ -1,0 +1,14 @@
+name: deploy-thiagoresende.dev
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: npm run build
+#https://github.com/chuddyjoachim/next-url/blob/main/.github/workflows/deploy.yml
