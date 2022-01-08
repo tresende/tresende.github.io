@@ -7,7 +7,7 @@ const Custom404 = () => (
     <h1>404</h1>
     <span>Ops... it looks like this page doesn`t exist yet</span>
     <S.ImageRotate>
-      <Image width={250} height={323} src="/img/404.png" alt={`busy avenue`} />
+      <Image width={250} height={323} src="/img/404.png" alt={`old man meme harold`} />
     </S.ImageRotate>
   </S.Wrapper>
 )
