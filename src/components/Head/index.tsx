@@ -1,4 +1,5 @@
 import Head from 'next/head'
+
 import TagManager from 'components/TagManager'
 
 const HeadComponent = () => (
