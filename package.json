@@ -25,7 +25,7 @@
     "pre-commit": "npx lint-staged"
   },
   "dependencies": {
-    "next": "12.1.2",
+    "next": "12.1.4",
     "next-seo": "^5.3.0",
     "preact": "^10.7.0",
     "preact-render-to-string": "^5.1.20",
