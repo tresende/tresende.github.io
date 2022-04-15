@@ -1,6 +1,6 @@
-import { GlobalStyleComponent, DefaultTheme, createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
-const GlobalStyles: GlobalStyleComponent<null, DefaultTheme> = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
 
 * {
   margin: 0;
