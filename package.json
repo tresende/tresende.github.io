@@ -1,6 +1,7 @@
 {
   "name": "tresende",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "lint": "eslint . --max-warnings=0",
