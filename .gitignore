@@ -16,3 +16,4 @@ yarn-error.log*
 .env.production.local
 .vercel
 tsconfig.tsbuildinfo
+.npmrc
