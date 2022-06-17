@@ -16,7 +16,7 @@
 #### Main
 
 - Next
-- React
+- Preact
 - Webpack
 
 #### Style
