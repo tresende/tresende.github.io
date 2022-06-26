@@ -1,7 +1,20 @@
+import Cors from 'cors'
 import { NextApiRequest, NextApiResponse } from 'next'
-import { convetToFirestore } from 'utils/convetToFirestore'
+import convetToFirestore from 'utils/convetToFirestore'
 
-export default async function handler(req: NextApiRequest, resp: NextApiResponse) {
+const initMiddleware = (middleware: any) => {
+  return (req: NextApiRequest, res: NextApiResponse) =>
+    new Promise((resolve) => {
+      middleware(req, res, (result: any) => {
+        return resolve(result)
+      })
+    })
+}
+
+const cors = initMiddleware(Cors({ methods: ['GET', 'POST', 'OPTIONS'] }))
+
+const handler = async (req: NextApiRequest, res: NextApiResponse) => {
+  await cors(req, res)
   const headers = convetToFirestore(req.headers)
   const body = convetToFirestore(req.body)
 
@@ -19,8 +32,10 @@ export default async function handler(req: NextApiRequest, resp: NextApiResponse
         }
       })
     })
-    resp.status(200).json({})
+    res.status(200).json({})
   } catch (error) {
-    resp.status(500).json(error)
+    res.status(500).json(error)
   }
 }
+
+export default handler

@@ -1,4 +1,4 @@
-export const convetToFirestore = (object: any) => {
+const convetToFirestore = (object: any) => {
   const keys = Object.keys(object).map((item) => ({
     [item]: {
       stringValue: object[item]
@@ -11,3 +11,5 @@ export const convetToFirestore = (object: any) => {
   })
   return data
 }
+
+export default convetToFirestore
