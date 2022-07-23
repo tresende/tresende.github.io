@@ -116,6 +116,7 @@ exports[`<Home /> should render all components 1`] = `
     autoplay=""
     class="c0"
     loop=""
+    playsinline=""
     preload="auto"
   >
     <span
@@ -300,7 +301,7 @@ exports[`<Home /> should render all components 1`] = `
           </span>
         </a>
         <a
-          href="https://www.instagram.com/tresende.js"
+          href="https://www.instagram.com/thiago.gcr/"
           rel="noreferrer"
           target="_blank"
         >

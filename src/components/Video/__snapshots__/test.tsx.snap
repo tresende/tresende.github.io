@@ -14,6 +14,7 @@ exports[`<Video /> should render image fallaback 1`] = `
     autoplay=""
     class="c0"
     loop=""
+    playsinline=""
     preload="auto"
   >
     <span
