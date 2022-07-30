@@ -8,7 +8,8 @@ module.exports = {
     '!src/types/**/*.d.ts',
     '!src/**/mock.ts',
     '!src/components/Head/**/*.tsx',
-    '!src/components/TagManager/**/*.tsx'
+    '!src/components/TagManager/**/*.tsx',
+    '!src/utils/convetToFirestore.ts'
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/', '<rootDir>/.jest'],

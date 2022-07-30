@@ -4,5 +4,5 @@ export const Wrapper = styled.footer`
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  width: 11rem;
+  width: 12rem;
 `

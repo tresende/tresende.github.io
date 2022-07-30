@@ -4,7 +4,7 @@ import SocialLink from '.'
 
 const mock = {
   githubUrl: 'github.com/tresende',
-  icon: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'
+  icon: '/img/github.png'
 }
 
 describe('<SocialLink />', () => {
