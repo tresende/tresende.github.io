@@ -2,7 +2,7 @@ import Cors from 'cors'
 import { NextApiRequest, NextApiResponse } from 'next'
 import convetToFirestore from 'utils/convetToFirestore'
 
-const pixel = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z/C/HgAGgwJ/lK3Q6wAAAABJRU5ErkJggg==)'
+const pixel = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z/C/HgAGgwJ/lK3Q6wAAAABJRU5ErkJggg=='
 
 const initMiddleware = (middleware: any) => (req: NextApiRequest, res: NextApiResponse) =>
   new Promise((resolve) => {
