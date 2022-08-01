@@ -1,8 +1,11 @@
+import fs from 'fs'
+import path from 'path'
 import Cors from 'cors'
 import { NextApiRequest, NextApiResponse } from 'next'
 import convetToFirestore from 'utils/convetToFirestore'
 
-const pixel = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z/C/HgAGgwJ/lK3Q6wAAAABJRU5ErkJggg=='
+const filePath = path.resolve('.', 'public/img/404.png')
+const imageBuffer = fs.readFileSync(filePath)
 
 const initMiddleware = (middleware: any) => (req: NextApiRequest, res: NextApiResponse) =>
   new Promise((resolve) => {
@@ -30,12 +33,8 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         }
       })
     })
-    const imageContent = Buffer.from(pixel, 'base64').toString()
-    res.writeHead(200, {
-      'Content-Type': 'image/png',
-      'Content-Length': imageContent.length
-    })
-    res.end(imageContent)
+    res.setHeader('Content-Type', 'image/jpg')
+    res.send(imageBuffer)
   } catch (error) {
     res.status(500).json(error)
   }
