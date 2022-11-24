@@ -25,7 +25,7 @@
     "ecmaVersion": 11,
     "sourceType": "module"
   },
-  "plugins": ["react", "react-hooks", "@typescript-eslint"],
+  "plugins": ["react", "react-hooks", "@typescript-eslint", "simple-import-sort"],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -33,6 +33,21 @@
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
-    "react/display-name": "off"
+    "react/display-name": "off",
+    "simple-import-sort/imports": [
+      "warn",
+      {
+        "groups": [
+          ["^\\u0000", "^react", "^@?\\w"], //react and modules
+          [
+            "^\\.\\.(?!/?$)", //relative imports from other folder
+            "^\\.\\./?$", // Parent imports. Put `..` last.
+            "^\\.(?!/?$)", //relative imports from current folder
+            "^\\./?$" // Other relative imports. Put same-folder imports and `.` last.
+          ],
+          ["^\\.(/style(s|d)?$)"] //styles
+        ]
+      }
+    ]
   }
 }

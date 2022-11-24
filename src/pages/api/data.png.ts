@@ -1,7 +1,7 @@
-import fs from 'fs'
-import path from 'path'
 import Cors from 'cors'
+import fs from 'fs'
 import { NextApiRequest, NextApiResponse } from 'next'
+import path from 'path'
 import convetToFirestore from 'utils/convetToFirestore'
 
 const filePath = path.resolve('.', 'public/img/404.png')

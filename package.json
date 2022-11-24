@@ -10,7 +10,8 @@
     "test": "jest",
     "type-check": "tsc --project tsconfig.json --noEmit",
     "test:watch": "yarn test --watch",
-    "test:dependa-bot": " yarn && yarn test -u && yarn lint && yarn type-check && yarn build"
+    "test:dependa-bot": " yarn && yarn test -u && yarn lint && yarn type-check && yarn build",
+    "formmat": "yarn prettier --write ."
   },
   "lint-staged": {
     ".": [
@@ -59,6 +60,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
     "husky": "^8.0.2",
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",

@@ -1,5 +1,5 @@
+import Document, { DocumentContext, Head, Html, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
-import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
 
 export default class MyDocument extends Document {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

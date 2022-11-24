@@ -5,8 +5,6 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 ![](https://badges.aleen42.com/src/eslint.svg)
 
-
-
 ## ThiagoResende.dev😎
 
 [Check out!](https://thiagoresende.com) :)
@@ -76,5 +74,3 @@ yarn build
 - [EditorConfig](http://editorconfig.org)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
-
-
