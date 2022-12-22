@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "next": "^13.0.7",
+    "next": "^13.1.0",
     "next-seo": "^5.15.0",
     "preact": "^10.11.3",
     "preact-render-to-string": "^5.2.6",
