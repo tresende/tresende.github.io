@@ -32,7 +32,7 @@
     "next": "^13.2.4",
     "next-seo": "^5.15.0",
     "preact": "^10.13.2",
-    "preact-render-to-string": "^6.0.1",
+    "preact-render-to-string": "^6.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-github-corner": "^2.5.0",
