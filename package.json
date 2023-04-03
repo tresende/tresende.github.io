@@ -30,7 +30,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "next": "^13.2.4",
-    "next-seo": "^5.15.0",
+    "next-seo": "^6.0.0",
     "preact": "^10.13.2",
     "preact-render-to-string": "^6.0.2",
     "react": "18.2.0",
