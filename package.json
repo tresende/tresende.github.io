@@ -69,6 +69,6 @@
     "prettier": "^2.8.7",
     "simple-git-hooks": "^2.8.1",
     "styled-media-query": "^2.1.2",
-    "typescript": "^5.0.3"
+    "typescript": "^5.0.4"
   }
 }
