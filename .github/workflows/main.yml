@@ -12,10 +12,10 @@ jobs:
       - uses: actions/cache@v2
         with:
           path: '**/node_modules'
-          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
-      - run: yarn
-      - run: yarn type-check
-      - run: yarn test
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/pnpm-lock.yaml') }}
+      - run: pnpm install
+      - run: pnpm type-check
+      - run: pnpm test
       - name: Coveralls
         uses: coverallsapp/github-action@master
         with:

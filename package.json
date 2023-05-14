@@ -9,13 +9,13 @@
     "start": "next start",
     "test": "jest",
     "type-check": "tsc --project tsconfig.json --noEmit",
-    "test:watch": "yarn test --watch",
-    "test:dependa-bot": " yarn && yarn test -u && yarn lint && yarn type-check && yarn build",
-    "formmat": "yarn prettier --write ."
+    "test:watch": "pnpm test --watch",
+    "test:dependa-bot": " pnpm install && pnpm test -u && pnpm lint && pnpm type-check && pnpm build",
+    "formmat": "pnpm prettier --write ."
   },
   "lint-staged": {
     ".": [
-      "yarn lint --fix"
+      "pnpm lint --fix"
     ]
   },
   "eslintConfig": {

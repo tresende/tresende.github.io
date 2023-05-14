@@ -5,10 +5,10 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY . /var/www
 WORKDIR /var/www
 
-RUN apk add --update nodejs npm yarn
+RUN apk add --update nodejs npm pnpm
 RUN npm i -g pm2
-RUN yarn
-RUN yarn build
+RUN pnpm install
+RUN pnpm build
 
 EXPOSE 80
 
