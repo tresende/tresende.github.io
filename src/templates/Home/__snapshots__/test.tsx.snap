@@ -14,14 +14,6 @@ exports[`<Home /> should render all components 1`] = `
   padding-right: 0.5rem;
 }
 
-.c0 {
-  position: fixed;
-  left: 0;
-  top: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
 .c11 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -59,6 +51,14 @@ exports[`<Home /> should render all components 1`] = `
   animation-duration: 700ms;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+
+.c0 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .c1 {
