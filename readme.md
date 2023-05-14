@@ -32,13 +32,13 @@ git clone https://github.com/tresende/tresende.github.io
 Install npm packages:
 
 ```sh
-pnpm install
+yarn
 ```
 
 ## Running 👨‍💻
 
 ```sh
-pnpm dev
+yarn dev
 ```
 
 - Open [http://localhost:3000](http://localhost:3000)
@@ -48,7 +48,7 @@ pnpm dev
 ## Testing unit 🧪
 
 ```sh
-pnpm test
+yarn test
 ```
 
 ## Build 🚀
@@ -56,14 +56,14 @@ pnpm test
 ⚠️ Wait! This step happens automatically in pipeline, it's not necessary run build manually
 
 ```sh
-pnpm build
+yarn build
 ```
 
 ## DevTools 🛠
 
 ### Package Manager
 
-- [PNPM](https://pnpm.io/)
+- [YARN](https://yarnpkg.com/)
 
 ### Text Editor
 
