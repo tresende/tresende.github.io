@@ -31,7 +31,7 @@
     "cors": "^2.8.5",
     "next": "^13.4.4",
     "next-seo": "^6.0.0",
-    "preact": "^10.15.0",
+    "preact": "^10.15.1",
     "preact-render-to-string": "^6.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
