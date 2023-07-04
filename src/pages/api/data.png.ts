@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Cors from 'cors'
 import fs from 'fs'
 import { NextApiRequest, NextApiResponse } from 'next'

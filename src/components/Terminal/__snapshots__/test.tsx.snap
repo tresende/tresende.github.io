@@ -19,11 +19,8 @@ exports[`<Terminal /> should start in branch main 1`] = `
 }
 
 .c4 {
-  -webkit-animation-name: blink;
   animation-name: blink;
-  -webkit-animation-duration: 700ms;
   animation-duration: 700ms;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 

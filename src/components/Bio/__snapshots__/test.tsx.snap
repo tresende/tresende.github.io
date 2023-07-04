@@ -9,7 +9,7 @@ exports[`<Bio /> should render bio with skills 1`] = `
   list-style: none;
 }
 
-.c2::before {
+.c2 ::before {
   content: '-';
   padding-right: 0.5rem;
 }

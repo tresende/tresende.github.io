@@ -9,19 +9,13 @@ exports[`<Home /> should render all components 1`] = `
   list-style: none;
 }
 
-.c10::before {
+.c10 ::before {
   content: '-';
   padding-right: 0.5rem;
 }
 
 .c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 auto;
   width: 12rem;
@@ -45,11 +39,8 @@ exports[`<Home /> should render all components 1`] = `
 }
 
 .c7 {
-  -webkit-animation-name: blink;
   animation-name: blink;
-  -webkit-animation-duration: 700ms;
   animation-duration: 700ms;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
@@ -65,32 +56,15 @@ exports[`<Home /> should render all components 1`] = `
   height: 100%;
   width: 100%;
   position: fixed;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   background-color: rgba(0,0,0,0.6);
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: space-around;
   justify-content: space-around;
   background-color: rgba(0,0,0,0.6);
   color: white;

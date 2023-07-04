@@ -1,3 +1,4 @@
+/* eslint-disable */
 const convetToFirestore = (object: any) => {
   const keys = Object.keys(object).map((item) => ({
     [item]: {

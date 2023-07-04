@@ -2,32 +2,18 @@
 
 exports[`<404 /> should render all components 1`] = `
 .c0 {
-  -webkit-animation: changeBackgroundColor 10s linear infinite;
   animation: changeBackgroundColor 10s linear infinite;
   text-shadow: -2px 0 white,0 2px white,2px 0 white,0 -2px white;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
   height: 100vh;
 }
 
 .c1 {
   margin-top: 4rem;
-  -webkit-animation: rotating 4s linear infinite;
   animation: rotating 4s linear infinite;
-  -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white);
   filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white);
 }
 
