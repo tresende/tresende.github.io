@@ -23,7 +23,11 @@ export const Wrapper = styled.main`
   }
 
   animation: changeBackgroundColor 10s linear infinite;
-  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  text-shadow:
+    -2px 0 white,
+    0 2px white,
+    2px 0 white,
+    0 -2px white;
   display: flex;
   flex-direction: column;
   align-items: center;
