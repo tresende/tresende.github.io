@@ -1,5 +1,5 @@
 export type SocialLinkProps = {
-  name: 'linkedin' | 'email' | 'github' | 'facebook' | 'instagram'
+  name: 'linkedin' | 'email' | 'github' | 'instagram'
   url: string
 }
 

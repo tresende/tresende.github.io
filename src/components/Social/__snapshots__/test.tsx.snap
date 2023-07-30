@@ -1,16 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Social /> should render 5 social links 1`] = `
-.c0 {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 12rem;
-}
-
+exports[`<Social /> should render 4 social links 1`] = `
 <div>
   <footer
-    class="c0"
+    class="flex content-between justify-center gap-2"
   >
     <a
       href="https://github.com/tresende"
@@ -57,18 +50,6 @@ exports[`<Social /> should render 5 social links 1`] = `
         alt="instagram icon"
         height="32"
         src="/img/instagram.png"
-        width="32"
-      />
-    </a>
-    <a
-      href="https://www.facebook.com/thiagooooooooooooooo"
-      rel="noreferrer"
-      target="_blank"
-    >
-      <img
-        alt="facebook icon"
-        height="32"
-        src="/img/facebook.png"
         width="32"
       />
     </a>

@@ -1,15 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Github /> should render with link 1`] = `
-@media only screen and (max-width:760px) {
-  .c0 .github-corner {
-    display: none;
-  }
-}
-
 <div>
   <div
-    class="c0"
+    class="sm:hidden lg:block"
   >
     <a
       aria-label="Open GitHub project"

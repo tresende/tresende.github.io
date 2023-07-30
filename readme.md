@@ -19,7 +19,7 @@
 
 #### Style
 
-- Styled components
+- Tailwind
 
 ## Initialization 🛠
 

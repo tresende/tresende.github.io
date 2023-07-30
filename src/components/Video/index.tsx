@@ -1,10 +1,8 @@
-import * as S from './styles'
-
 const Bio = () => (
-  <S.Wrapper preload="auto" autoPlay muted loop playsInline>
+  <video preload="auto" autoPlay muted loop playsInline className="fixed w-auto min-w-full min-h-full max-w-none">
     <img src="/img/fake-bg.png" alt="busy avenue" />
     <source src="/videos/bg.mp4" type="video/mp4" />
-  </S.Wrapper>
+  </video>
 )
 
 export default Bio

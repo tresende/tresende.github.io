@@ -1,18 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Video /> should render image fallaback 1`] = `
-.c0 {
-  position: fixed;
-  left: 0;
-  top: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
 <div>
   <video
     autoplay=""
-    class="c0"
+    class="fixed w-auto min-w-full min-h-full max-w-none"
     loop=""
     playsinline=""
     preload="auto"

@@ -1,11 +1,9 @@
 import GithubCorner from 'react-github-corner'
 
-import * as S from './styles'
-
 const Github = () => (
-  <S.Wrapper>
+  <div className="sm:hidden lg:block">
     <GithubCorner bannerColor="greenyellow" octoColor="#000" href="https://github.com/tresende/tresende.github.io" />
-  </S.Wrapper>
+  </div>
 )
 
 export default Github
