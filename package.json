@@ -41,7 +41,7 @@
     "@types/cors": "^2.8.14",
     "@types/jest": "^29.5.4",
     "@types/node": "^20.6.1",
-    "@types/react": "^18.2.21",
+    "@types/react": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "autoprefixer": "^10.4.15",
