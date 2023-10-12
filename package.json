@@ -32,7 +32,7 @@
     "react-github-corner": "^2.5.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.0",
+    "@babel/core": "^7.23.2",
     "@babel/preset-typescript": "^7.23.0",
     "@babel/runtime": "^7.23.2",
     "@testing-library/jest-dom": "^5.17.0",
