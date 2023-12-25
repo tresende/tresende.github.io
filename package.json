@@ -35,7 +35,7 @@
     "@babel/core": "^7.23.6",
     "@babel/preset-typescript": "^7.23.3",
     "@babel/runtime": "^7.23.6",
-    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/jest-dom": "^6.1.5",
     "@testing-library/react": "^14.1.2",
     "@testing-library/react-hooks": "^8.0.1",
     "@types/cors": "^2.8.17",
