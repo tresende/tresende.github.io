@@ -28,7 +28,7 @@
     "preact": "^10.21.0",
     "preact-render-to-string": "^6.4.2",
     "react": "18.3.1",
-    "react-dom": "18.2.0",
+    "react-dom": "18.3.1",
     "react-github-corner": "^2.5.0"
   },
   "devDependencies": {
