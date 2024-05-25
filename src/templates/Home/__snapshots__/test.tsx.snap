@@ -2,181 +2,499 @@
 
 exports[`<Home /> should render all components 1`] = `
 <div>
-  <video
-    autoplay=""
-    class="fixed w-auto min-w-full min-h-full max-w-none"
-    loop=""
-    playsinline=""
-    preload="auto"
-  >
-    <img
-      alt="busy avenue"
-      src="/img/fake-bg.png"
-    />
-    <source
-      src="/videos/bg.mp4"
-      type="video/mp4"
-    />
-  </video>
   <main
-    class="flex fixed justify-center items-center h-full w-full bg-black/60"
+    class="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16"
   >
     <section
-      class="flex flex-col justify-around md:p-16 text-white max-w-2xl md:h-auto bg-black/60 p-8 h-screen"
+      class="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6"
     >
       <div
-        class="mb-4 whitespace-nowrap"
+        class="flex items-center justify-between"
       >
         <div
-          class="mb-4 whitespace-nowrap text-greenyellow"
+          class="flex-1 space-y-1.5"
         >
-          ~/Projects/tresende.github.io 
-          <span
-            class="text-gray-500"
+          <h1
+            class="text-2xl font-bold"
           >
-            main*
-          </span>
+            Thiago Resende
+          </h1>
+          <p
+            class="max-w-md text-pretty font-mono text-sm text-muted-foreground"
+          >
+            Software Engineer focused on building highly scalable products
+          </p>
+          <p
+            class="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground"
+          >
+            <a
+              class="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+              href="https://www.google.com/maps/place/Belo+Horizonte,+State+of+Minas+Gerais"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="lucide lucide-globe size-3"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                />
+                <path
+                  d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"
+                />
+                <path
+                  d="M2 12h20"
+                />
+              </svg>
+              Belo Horizonte, Minas Gerais, Brazil
+            </a>
+          </p>
+          <div
+            class="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden"
+          >
+            <a
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8"
+              href="mailto:thiago.gcresende@gmail.com"
+            >
+              <svg
+                class="lucide lucide-mail size-4"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  height="16"
+                  rx="2"
+                  width="20"
+                  x="2"
+                  y="4"
+                />
+                <path
+                  d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                />
+              </svg>
+            </a>
+            <a
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8"
+              href="https://github.com/tresende"
+            >
+              <svg
+                class="size-4"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8"
+              href="https://www.linkedin.com/in/thiago-resende-46175391"
+            >
+              <svg
+                class="size-4"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>
+                  LinkedIn
+                </title>
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
         <span
-          class="text-cyan-300"
+          class="relative flex shrink-0 overflow-hidden rounded-xl size-28"
         >
-          ❯ 
-        </span>
-        <span>
-          cat readme.txt
-        </span>
-        <span
-          class="blink"
-        >
-          _
+          <img
+            alt="Thiago Resende"
+            class="aspect-square h-full w-full"
+            src="https://github.com/tresende.png"
+          />
         </span>
       </div>
-      <div
-        class="leading-8"
+      <section
+        class="flex min-h-0 flex-col gap-y-3"
       >
-        <p>
-          Hello, friend.
+        <h2
+          class="text-xl font-bold"
+        >
+          About
+        </h2>
+        <p
+          class="text-pretty font-mono text-sm text-muted-foreground"
+        >
+          With over 13 years of experience in software development, I am a senior software engineer passionate about creating innovative and scalable web solutions. My goal is to leverage my skills in frontend, backend, big data, and cloud computing to deliver high-quality, high-performance, and user-friendly products.
         </p>
-        <p>
-          My name is Thiago Resende. I'm a software engineer living in Belo Horizonte, Brazil. I'm a technology fan, programming and coffee. These are my high-level skills:
+        <p
+          class="text-pretty font-mono text-sm text-muted-foreground"
+        >
+          I am currently working on a high-traffic application using Java, Kotlin, and microservices. This project involves developing and maintaining a robust system that supports extensive logistics operations. My work focuses on ensuring the application's scalability, reliability, and efficiency to meet the demands of millions of users.
         </p>
-        <ul>
-          <li
-            class="pr-2"
+        <p
+          class="text-pretty font-mono text-sm text-muted-foreground"
+        >
+          I also strive to contribute to a culture of continuous learning, collaboration, and diversity within my team by sharing my experiences, ideas, and feedback.
+        </p>
+      </section>
+      <section
+        class="flex min-h-0 flex-col gap-y-3"
+      >
+        <h2
+          class="text-xl font-bold"
+        >
+          Work Experience
+        </h2>
+        <div
+          class="rounded-lg bg-card text-card-foreground"
+        >
+          <div
+            class="flex flex-col space-y-1.5"
+          >
+            <div
+              class="flex items-center justify-between gap-x-2 text-base"
+            >
+              <h3
+                class="inline-flex items-center justify-center gap-x-1 font-semibold leading-none"
+              >
+                <a
+                  class="hover:underline"
+                  href="#"
+                >
+                  iFood
+                </a>
+                <span
+                  class="inline-flex gap-x-1"
+                />
+              </h3>
+              <div
+                class="text-sm tabular-nums text-gray-500"
+              >
+                2021 - now
+              </div>
+            </div>
+            <h4
+              class="font-mono text-sm leading-none"
+            >
+              Senior Software Engineer
+            </h4>
+          </div>
+          <div
+            class="text-pretty font-mono text-muted-foreground mt-2 text-xs"
+          >
+            I am currently working on a web portal developed to help all logistics involved in iFood operations around the world. This application is developed using Java, Kotlin, microservices, TypeScript, Webpack, Testing Library, aws, and nx monorepo.
+          </div>
+        </div>
+        <hr />
+        <div
+          class="rounded-lg bg-card text-card-foreground"
+        >
+          <div
+            class="flex flex-col space-y-1.5"
+          >
+            <div
+              class="flex items-center justify-between gap-x-2 text-base"
+            >
+              <h3
+                class="inline-flex items-center justify-center gap-x-1 font-semibold leading-none"
+              >
+                <a
+                  class="hover:underline"
+                  href="#"
+                >
+                  Hotmart
+                </a>
+                <span
+                  class="inline-flex gap-x-1"
+                />
+              </h3>
+              <div
+                class="text-sm tabular-nums text-gray-500"
+              >
+                2020 - 2021
+              </div>
+            </div>
+            <h4
+              class="font-mono text-sm leading-none"
+            >
+              Senior Software Engineer
+            </h4>
+          </div>
+          <div
+            class="text-pretty font-mono text-muted-foreground mt-2 text-xs"
+          >
+            During my time at Hotmart, I worked as a senior frontend developer in two large projects. The first was focused on user privacy, creating internal applications in React with TypeScript and features in existing products for end users, using Next, Meteor, and Vue.js to meet all demands of legislation such as GDPR, LGPD, cookie policy, etc. In the second project, I worked on a product vital for Hotmart business. Our stack included React, Redux, Cypress, Jest, and Meteor.
+          </div>
+        </div>
+        <hr />
+        <div
+          class="rounded-lg bg-card text-card-foreground"
+        >
+          <div
+            class="flex flex-col space-y-1.5"
+          >
+            <div
+              class="flex items-center justify-between gap-x-2 text-base"
+            >
+              <h3
+                class="inline-flex items-center justify-center gap-x-1 font-semibold leading-none"
+              >
+                <a
+                  class="hover:underline"
+                  href="#"
+                >
+                  dti digital
+                </a>
+                <span
+                  class="inline-flex gap-x-1"
+                />
+              </h3>
+              <div
+                class="text-sm tabular-nums text-gray-500"
+              >
+                2019 - 2020
+              </div>
+            </div>
+            <h4
+              class="font-mono text-sm leading-none"
+            >
+              Senior Software Engineer
+            </h4>
+          </div>
+          <div
+            class="text-pretty font-mono text-muted-foreground mt-2 text-xs"
+          >
+            At the beginning of my journey at DTI, I worked as a developer using .NET Core, Angular, and SQL Server. Soon after, I took on the role of technical leader for squads aimed at Vale, one of the largest mining companies in the world. We worked with a mix of recent technologies such as .NET Core (serverless), Protocol Buffers, Redis, Cosmos DB, and micro frontends (React and Angular) alongside traditional technologies like Java, SQL Server, and Power BI. We focused heavily on agile methodologies and used Scrum with adaptations for the client reality.
+          </div>
+        </div>
+        <hr />
+        <div
+          class="rounded-lg bg-card text-card-foreground"
+        >
+          <div
+            class="flex flex-col space-y-1.5"
+          >
+            <div
+              class="flex items-center justify-between gap-x-2 text-base"
+            >
+              <h3
+                class="inline-flex items-center justify-center gap-x-1 font-semibold leading-none"
+              >
+                <a
+                  class="hover:underline"
+                  href="#"
+                >
+                  IBM
+                </a>
+                <span
+                  class="inline-flex gap-x-1"
+                />
+              </h3>
+              <div
+                class="text-sm tabular-nums text-gray-500"
+              >
+                2015 - 2019
+              </div>
+            </div>
+            <h4
+              class="font-mono text-sm leading-none"
+            >
+              Full Stack Developer
+            </h4>
+          </div>
+          <div
+            class="text-pretty font-mono text-muted-foreground mt-2 text-xs"
+          >
+            During my time at IBM, I worked for two major players in the Brazilian automotive industry, FCA/Stellantis and Volkswagen. Initially, I worked as a full stack developer creating applications to improve supply chain management processes. These systems were mostly built in Java and Node.js on the backend and Angular and React on the frontend. Over time, I transitioned to software architecture, helping migrate and update these applications from FIAT internal data centers to AWS, initially using Beanstalk, Docker, and later Kubernetes. At Volkswagen, I developed a chatbot orchestrator to assist users with various internal processes. This application was built using Node.js, MongoDB, IBM Watson, and Angular, and was hosted on the IBM Cloud.
+          </div>
+        </div>
+        <hr />
+        <div
+          class="rounded-lg bg-card text-card-foreground"
+        >
+          <div
+            class="flex flex-col space-y-1.5"
+          >
+            <div
+              class="flex items-center justify-between gap-x-2 text-base"
+            >
+              <h3
+                class="inline-flex items-center justify-center gap-x-1 font-semibold leading-none"
+              >
+                <a
+                  class="hover:underline"
+                  href="#"
+                >
+                  Hexagon Mining
+                </a>
+                <span
+                  class="inline-flex gap-x-1"
+                />
+              </h3>
+              <div
+                class="text-sm tabular-nums text-gray-500"
+              >
+                2014 - 2015
+              </div>
+            </div>
+            <h4
+              class="font-mono text-sm leading-none"
+            >
+              .Net Developer
+            </h4>
+          </div>
+          <div
+            class="text-pretty font-mono text-muted-foreground mt-2 text-xs"
+          >
+            Development of applications for the main mining companies in the country, focusing on managing iron ore production and online control of all machines using .NET stack, SQL Server, Postgres, and internal network protocols.
+          </div>
+        </div>
+      </section>
+      <section
+        class="flex min-h-0 flex-col gap-y-3"
+      >
+        <h2
+          class="text-xl font-bold"
+        >
+          Education
+        </h2>
+        <div
+          class="rounded-lg bg-card text-card-foreground"
+        >
+          <div
+            class="flex flex-col space-y-1.5"
+          >
+            <div
+              class="flex items-center justify-between gap-x-2 text-base"
+            >
+              <h3
+                class="font-semibold leading-none"
+              >
+                PUC Minas
+              </h3>
+              <div
+                class="text-sm tabular-nums text-gray-500"
+              >
+                2012 - 2017
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-pretty font-mono text-sm text-muted-foreground mt-2"
+          >
+            Information systems, Computer Software Engineering
+          </div>
+        </div>
+        <div
+          class="rounded-lg bg-card text-card-foreground"
+        >
+          <div
+            class="flex flex-col space-y-1.5"
+          >
+            <div
+              class="flex items-center justify-between gap-x-2 text-base"
+            >
+              <h3
+                class="font-semibold leading-none"
+              >
+                Colégio COTEMIG
+              </h3>
+              <div
+                class="text-sm tabular-nums text-gray-500"
+              >
+                2009 - 2011
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-pretty font-mono text-sm text-muted-foreground mt-2"
+          >
+            Technical High School, Computing
+          </div>
+        </div>
+      </section>
+      <section
+        class="flex min-h-0 flex-col gap-y-3"
+      >
+        <h2
+          class="text-xl font-bold"
+        >
+          Skills
+        </h2>
+        <div
+          class="flex flex-wrap gap-1"
+        >
+          <div
+            class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60"
+          >
+            TypeScript
+          </div>
+          <div
+            class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60"
+          >
+            Node.js
+          </div>
+          <div
+            class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60"
+          >
+            Java
+          </div>
+          <div
+            class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60"
+          >
+            Kotlin
+          </div>
+          <div
+            class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60"
+          >
+            AWS
+          </div>
+          <div
+            class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60"
+          >
+            Microservices
+          </div>
+          <div
+            class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60"
+          >
+            SQL/NoSQL
+          </div>
+          <div
+            class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60"
+          >
+            .Net
+          </div>
+          <div
+            class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60"
           >
             React
-          </li>
-          <li
-            class="pr-2"
-          >
-            Angular
-          </li>
-          <li
-            class="pr-2"
-          >
-            Node
-          </li>
-          <li
-            class="pr-2"
-          >
-            Flutter
-          </li>
-          <li
-            class="pr-2"
-          >
-            SNES
-          </li>
-          <li
-            class="pr-2"
-          >
-            Bass
-          </li>
-        </ul>
-      </div>
-      <footer
-        class="flex content-between justify-center gap-2"
-      >
-        <a
-          href="https://github.com/tresende"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="github icon"
-            height="32"
-            src="/img/github.png"
-            width="32"
-          />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/thiago-resende-46175391"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="linkedin icon"
-            height="32"
-            src="/img/linkedin.png"
-            width="32"
-          />
-        </a>
-        <a
-          href="mailto:thiago.gcresende@gmail.com"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="email icon"
-            height="32"
-            src="/img/email.png"
-            width="32"
-          />
-        </a>
-        <a
-          href="https://www.instagram.com/thiago.gcr/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="instagram icon"
-            height="32"
-            src="/img/instagram.png"
-            width="32"
-          />
-        </a>
-      </footer>
+          </div>
+        </div>
+      </section>
     </section>
   </main>
-  <div
-    class="sm:hidden lg:block"
-  >
-    <a
-      aria-label="Open GitHub project"
-      class="github-corner"
-      href="https://github.com/tresende/tresende.github.io"
-    >
-      <svg
-        height="80"
-        style="position: absolute; top: 0px; fill: #000; right: 0px;"
-        viewBox="0 0 250 250"
-        width="80"
-      >
-        <path
-          class="octo-banner"
-          d="M0 0l115 115h15l12 27 108 108V0z"
-          fill="greenyellow"
-        />
-        <path
-          class="octo-arm"
-          d="M128 109c-15-9-9-19-9-19 3-7 2-11 2-11-1-7 3-2 3-2 4 5 2 11 2 11-3 10 5 15 9 16"
-          style="transform-origin: 130px 106px;"
-        />
-        <path
-          class="octo-body"
-          d="M115 115s4 2 5 0l14-14c3-2 6-3 8-3-8-11-15-24 2-41 5-5 10-7 16-7 1-2 3-7 12-11 0 0 5 3 7 16 4 2 8 5 12 9s7 8 9 12c14 3 17 7 17 7-4 8-9 11-11 11 0 6-2 11-7 16-16 16-30 10-41 2 0 3-1 7-5 11l-12 11c-1 1 1 5 1 5z"
-        />
-      </svg>
-    </a>
-  </div>
 </div>
 `;
