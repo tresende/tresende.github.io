@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Social /> should render 4 social links 1`] = `
+<div>
+  <footer
+    class="flex content-between justify-center gap-2"
+  >
+    <a
+      href="https://github.com/tresende"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="github icon"
+        height="32"
+        src="/img/github.png"
+        width="32"
+      />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/thiago-resende-46175391"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="linkedin icon"
+        height="32"
+        src="/img/linkedin.png"
+        width="32"
+      />
+    </a>
+    <a
+      href="mailto:thiago.gcresende@gmail.com"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="email icon"
+        height="32"
+        src="/img/email.png"
+        width="32"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com/thiago.gcr/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="instagram icon"
+        height="32"
+        src="/img/instagram.png"
+        width="32"
+      />
+    </a>
+  </footer>
+</div>
+`;

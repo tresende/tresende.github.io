@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Video /> should render image fallaback 1`] = `
+<div>
+  <video
+    autoplay=""
+    class="fixed w-auto min-w-full min-h-full max-w-none"
+    loop=""
+    playsinline=""
+    preload="auto"
+  >
+    <img
+      alt="busy avenue"
+      src="/img/fake-bg.png"
+    />
+    <source
+      src="/videos/bg.mp4"
+      type="video/mp4"
+    />
+  </video>
+</div>
+`;

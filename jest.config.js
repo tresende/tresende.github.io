@@ -11,7 +11,6 @@ module.exports = {
     '!src/components/TagManager/**/*.tsx',
     '!src/utils/convetToFirestore.ts'
   ],
-  extensionsToTreatAsEsm: ['.ts'],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/', '<rootDir>/.jest']
 }

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialLink /> should render social link 1`] = `
+<div>
+  <a
+    href="github.com/tresende"
+    rel="noreferrer"
+    target="_blank"
+  >
+    <img
+      alt="github icon"
+      height="32"
+      src="/img/github.png"
+      width="32"
+    />
+  </a>
+</div>
+`;
