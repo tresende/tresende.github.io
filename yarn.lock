@@ -5051,10 +5051,10 @@ postcss@^8.4.23, postcss@^8.4.38:
     picocolors "^1.0.0"
     source-map-js "^1.2.0"
 
-preact-render-to-string@^6.5.3:
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.3.tgz#ee7b20728ece579c3a093eb4022597bb004946dd"
-  integrity sha512-TWRSivNYMB3DMcFvrhwdGFkfSvPhUkd5r1q5q+1oQA21wnfEaxJe2X5U1BqLsuOA/v79sFRkg+qSeDkMHOqdvQ==
+preact-render-to-string@^6.5.4:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.4.tgz#4c5891feef160b2b5e5c93bf6f77fe7726e7cae6"
+  integrity sha512-06s0E3cEMLoXQznmtJ/K/xbFs3uwo52Qpgf8lzbe+VbF/XzwJ0LxZGtVLZekhaEeC39+W1MEf05F4lUikzPnxA==
 
 preact@^10.22.0:
   version "10.22.0"
