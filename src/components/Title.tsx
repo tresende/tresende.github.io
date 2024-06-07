@@ -7,7 +7,7 @@ export default function Title() {
         <div className="flex-1 space-y-1.5">
           <h1 className="text-2xl font-bold">Thiago Resende</h1>
           <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
-            Software Engineer focused on building highly scalable products
+            Software engineer focused on building amazing products
           </p>
           <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
             <a
