@@ -22,7 +22,7 @@ exports[`<Home /> should render all components 1`] = `
           <p
             class="max-w-md text-pretty font-mono text-sm text-muted-foreground"
           >
-            Software Engineer focused on building highly scalable products
+            Software engineer focused on building amazing products
           </p>
           <p
             class="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground"
@@ -33,31 +33,14 @@ exports[`<Home /> should render all components 1`] = `
               rel="noreferrer"
               target="_blank"
             >
-              <svg
-                class="lucide lucide-globe size-3"
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
+              <span
+                class="hidden sm:block"
               >
-                <circle
-                  cx="12"
-                  cy="12"
-                  r="10"
-                />
-                <path
-                  d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"
-                />
-                <path
-                  d="M2 12h20"
-                />
-              </svg>
-              Belo Horizonte, Minas Gerais, Brazil
+                🌏
+              </span>
+              <span>
+                Belo Horizonte, Minas Gerais, Brazil
+              </span>
             </a>
           </p>
           <div
@@ -127,7 +110,7 @@ exports[`<Home /> should render all components 1`] = `
           </div>
         </div>
         <span
-          class="relative flex shrink-0 overflow-hidden rounded-xl size-28"
+          class="relative flex shrink-0 overflow-hidden rounded-xl size-20 sm:size-28"
         >
           <img
             alt="Thiago Resende"
@@ -147,7 +130,9 @@ exports[`<Home /> should render all components 1`] = `
         <p
           class="text-pretty font-mono text-sm text-muted-foreground"
         >
-          With over 13 years of experience in software development, I am a senior software engineer passionate about creating innovative and scalable web solutions. My goal is to leverage my skills in frontend, backend, big data, and cloud computing to deliver high-quality, high-performance, and user-friendly products.
+          With over 
+          13
+           years of software development experience, I am a senior software engineer passionate about creating innovative and highly scalable solutions. My goal is to leverage my software engineering skills to deliver high-quality, high-performance, and easy-to-use products.
         </p>
         <p
           class="text-pretty font-mono text-sm text-muted-foreground"
