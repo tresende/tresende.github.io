@@ -39,7 +39,7 @@ exports[`<Home /> should render all components 1`] = `
                 🌏
               </span>
               <span>
-                Belo Horizonte, Minas Gerais, Brazil
+                Belo Horizonte, MG, Brazil
               </span>
             </a>
           </p>

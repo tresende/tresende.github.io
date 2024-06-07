@@ -17,7 +17,7 @@ export default function Title() {
               rel="noreferrer"
             >
               <span className="hidden sm:block">🌏</span>
-              <span>Belo Horizonte, Minas Gerais, Brazil</span>
+              <span>Belo Horizonte, MG, Brazil</span>
             </a>
           </p>
           <Social />
