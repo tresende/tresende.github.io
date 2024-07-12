@@ -5,7 +5,7 @@ export default function HeadComponent() {
   return (
     <Head>
       <TagManager />
-      <title>(2) Whatsapp</title>
+      <title>Thiago Resende</title>
       <link rel="icon" href="/favicon.ico" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="author" content="Thiago Resende" />
