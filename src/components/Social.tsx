@@ -3,6 +3,7 @@ export default function Social() {
     <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
       <a
         href="mailto:thiago.gcresende@gmail.com"
+        aria-label="Email"
         className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8"
       >
         <svg
@@ -22,6 +23,7 @@ export default function Social() {
         </svg>
       </a>
       <a
+        aria-label="Github"
         href="https://github.com/tresende"
         className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8"
       >
@@ -33,6 +35,7 @@ export default function Social() {
         </svg>
       </a>
       <a
+        aria-label="LinkedIn"
         href="https://www.linkedin.com/in/thiago-resende-46175391"
         className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8"
       >
