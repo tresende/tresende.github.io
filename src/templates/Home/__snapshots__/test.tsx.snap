@@ -6,7 +6,7 @@ exports[`<Home /> should render all components 1`] = `
     class="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16"
   >
     <section
-      class="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6"
+      class="mx-auto w-full max-w-2xl space-y-8 print:space-y-6"
     >
       <div
         class="space-y-1.5"
