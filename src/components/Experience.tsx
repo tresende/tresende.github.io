@@ -1,3 +1,5 @@
+import LinkedinLink from './LinkedinLink'
+
 export default function Experience() {
   return (
     <section className="flex min-h-0 flex-col gap-y-3">
@@ -6,7 +8,7 @@ export default function Experience() {
         <div className="flex flex-col space-y-1.5">
           <div className="flex items-center justify-between gap-x-2 text-base">
             <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-              <a className="hover:underline" href="#">
+              <a className="hover:underline" href="https://ifood.com.br/">
                 iFood
               </a>
               <span className="inline-flex gap-x-1"></span>
@@ -26,7 +28,7 @@ export default function Experience() {
         <div className="flex flex-col space-y-1.5">
           <div className="flex items-center justify-between gap-x-2 text-base">
             <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-              <a className="hover:underline" href="#">
+              <a className="hover:underline" href="https://hotmart.com">
                 Hotmart
               </a>
               <span className="inline-flex gap-x-1"></span>
@@ -48,7 +50,7 @@ export default function Experience() {
         <div className="flex flex-col space-y-1.5">
           <div className="flex items-center justify-between gap-x-2 text-base">
             <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-              <a className="hover:underline" href="#">
+              <a className="hover:underline" href="https://www.dtidigital.com.br/">
                 dti digital
               </a>
               <span className="inline-flex gap-x-1"></span>
@@ -72,7 +74,7 @@ export default function Experience() {
         <div className="flex flex-col space-y-1.5">
           <div className="flex items-center justify-between gap-x-2 text-base">
             <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-              <a className="hover:underline" href="#">
+              <a className="hover:underline" href="https://ibm.com/">
                 IBM
               </a>
               <span className="inline-flex gap-x-1"></span>
@@ -92,23 +94,27 @@ export default function Experience() {
         </div>
       </div>
       <hr />
-      <div className="rounded-lg bg-card text-card-foreground">
+      <div className="rounded-lg bg-card text-card-foreground blur-sm">
         <div className="flex flex-col space-y-1.5">
           <div className="flex items-center justify-between gap-x-2 text-base">
             <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-              <a className="hover:underline" href="#">
-                Hexagon Mining
-              </a>
+              <LinkedinLink>Hexagon Mining</LinkedinLink>
               <span className="inline-flex gap-x-1"></span>
             </h3>
-            <div className="text-sm tabular-nums text-gray-500">2014 - 2015</div>
+            <div className="text-sm tabular-nums text-gray-500">
+              <LinkedinLink>2014 - 2015</LinkedinLink>
+            </div>
           </div>
-          <h4 className="font-mono text-sm leading-none">.Net Developer</h4>
+          <h4 className="font-mono text-sm leading-none">
+            <LinkedinLink>.Net Developer</LinkedinLink>
+          </h4>
         </div>
         <div className="text-pretty font-mono text-muted-foreground mt-2 text-xs">
-          Development of applications for the main mining companies in the country, focusing on managing iron ore
-          production and online control of all machines using .NET stack, SQL Server, Postgres, and internal network
-          protocols.
+          <LinkedinLink>
+            Development of applications for the main mining companies in the country, focusing on managing iron ore
+            production and online control of all machines using .NET stack, SQL Server, Postgres, and internal network
+            protocols.
+          </LinkedinLink>
         </div>
       </div>
     </section>

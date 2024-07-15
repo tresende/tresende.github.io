@@ -109,15 +109,6 @@ exports[`<Home /> should render all components 1`] = `
             </a>
           </div>
         </div>
-        <span
-          class="relative flex shrink-0 overflow-hidden rounded-xl size-20 sm:size-28"
-        >
-          <img
-            alt="Thiago Resende"
-            class="aspect-square h-full w-full"
-            src="https://github.com/tresende.png"
-          />
-        </span>
       </div>
       <section
         class="flex min-h-0 flex-col gap-y-3"
@@ -167,7 +158,7 @@ exports[`<Home /> should render all components 1`] = `
               >
                 <a
                   class="hover:underline"
-                  href="#"
+                  href="https://ifood.com.br/"
                 >
                   iFood
                 </a>
@@ -208,7 +199,7 @@ exports[`<Home /> should render all components 1`] = `
               >
                 <a
                   class="hover:underline"
-                  href="#"
+                  href="https://hotmart.com"
                 >
                   Hotmart
                 </a>
@@ -249,7 +240,7 @@ exports[`<Home /> should render all components 1`] = `
               >
                 <a
                   class="hover:underline"
-                  href="#"
+                  href="https://www.dtidigital.com.br/"
                 >
                   dti digital
                 </a>
@@ -290,7 +281,7 @@ exports[`<Home /> should render all components 1`] = `
               >
                 <a
                   class="hover:underline"
-                  href="#"
+                  href="https://ibm.com/"
                 >
                   IBM
                 </a>
@@ -318,7 +309,7 @@ exports[`<Home /> should render all components 1`] = `
         </div>
         <hr />
         <div
-          class="rounded-lg bg-card text-card-foreground"
+          class="rounded-lg bg-card text-card-foreground blur-sm"
         >
           <div
             class="flex flex-col space-y-1.5"
@@ -330,8 +321,9 @@ exports[`<Home /> should render all components 1`] = `
                 class="inline-flex items-center justify-center gap-x-1 font-semibold leading-none"
               >
                 <a
-                  class="hover:underline"
-                  href="#"
+                  href="https://www.linkedin.com/in/thiago-resende-46175391"
+                  rel="noreferrer"
+                  target="_blank"
                 >
                   Hexagon Mining
                 </a>
@@ -342,82 +334,37 @@ exports[`<Home /> should render all components 1`] = `
               <div
                 class="text-sm tabular-nums text-gray-500"
               >
-                2014 - 2015
+                <a
+                  href="https://www.linkedin.com/in/thiago-resende-46175391"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  2014 - 2015
+                </a>
               </div>
             </div>
             <h4
               class="font-mono text-sm leading-none"
             >
-              .Net Developer
+              <a
+                href="https://www.linkedin.com/in/thiago-resende-46175391"
+                rel="noreferrer"
+                target="_blank"
+              >
+                .Net Developer
+              </a>
             </h4>
           </div>
           <div
             class="text-pretty font-mono text-muted-foreground mt-2 text-xs"
           >
-            Development of applications for the main mining companies in the country, focusing on managing iron ore production and online control of all machines using .NET stack, SQL Server, Postgres, and internal network protocols.
-          </div>
-        </div>
-      </section>
-      <section
-        class="flex min-h-0 flex-col gap-y-3"
-      >
-        <h2
-          class="text-xl font-bold"
-        >
-          Education
-        </h2>
-        <div
-          class="rounded-lg bg-card text-card-foreground"
-        >
-          <div
-            class="flex flex-col space-y-1.5"
-          >
-            <div
-              class="flex items-center justify-between gap-x-2 text-base"
+            <a
+              href="https://www.linkedin.com/in/thiago-resende-46175391"
+              rel="noreferrer"
+              target="_blank"
             >
-              <h3
-                class="font-semibold leading-none"
-              >
-                PUC Minas
-              </h3>
-              <div
-                class="text-sm tabular-nums text-gray-500"
-              >
-                2012 - 2017
-              </div>
-            </div>
-          </div>
-          <div
-            class="text-pretty font-mono text-sm text-muted-foreground mt-2"
-          >
-            Information systems, Computer Software Engineering
-          </div>
-        </div>
-        <div
-          class="rounded-lg bg-card text-card-foreground"
-        >
-          <div
-            class="flex flex-col space-y-1.5"
-          >
-            <div
-              class="flex items-center justify-between gap-x-2 text-base"
-            >
-              <h3
-                class="font-semibold leading-none"
-              >
-                Colégio COTEMIG
-              </h3>
-              <div
-                class="text-sm tabular-nums text-gray-500"
-              >
-                2009 - 2011
-              </div>
-            </div>
-          </div>
-          <div
-            class="text-pretty font-mono text-sm text-muted-foreground mt-2"
-          >
-            Technical High School, Computing
+              Development of applications for the main mining companies in the country, focusing on managing iron ore production and online control of all machines using .NET stack, SQL Server, Postgres, and internal network protocols.
+            </a>
           </div>
         </div>
       </section>
