@@ -69,7 +69,6 @@ export default function Experience() {
         </div>
       </div>
       <hr />
-
       <div className="rounded-lg bg-card text-card-foreground">
         <div className="flex flex-col space-y-1.5">
           <div className="flex items-center justify-between gap-x-2 text-base">
