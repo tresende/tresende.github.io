@@ -14,8 +14,7 @@ export default function Title() {
           target="_blank"
           rel="noreferrer"
         >
-          <span className="hidden sm:block">🌏</span>
-          <span>Belo Horizonte, MG, Brazil</span>
+          <span>🌏 Belo Horizonte, MG, Brazil</span>
         </a>
       </p>
       <Social />
