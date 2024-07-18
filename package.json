@@ -27,7 +27,7 @@
     "next": "^14.2.5",
     "next-seo": "^6.5.0",
     "preact": "^10.22.1",
-    "preact-render-to-string": "^6.5.5",
+    "preact-render-to-string": "^6.5.6",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
