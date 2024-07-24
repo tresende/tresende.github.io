@@ -4439,10 +4439,10 @@ postcss@^8.4.23, postcss@^8.4.39:
     picocolors "^1.0.1"
     source-map-js "^1.2.0"
 
-preact-render-to-string@^6.5.6:
-  version "6.5.6"
-  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.6.tgz#8e5bd86fd448adf26e6bf8d88c199ab66733ded1"
-  integrity sha512-msFdv7/ooTV6OIodAnU87V4ct+m2DA1rwaRYV+DNvTYpm/ZInQfoGrcHmbTkV7TOcJaHh5wt1NjiALA46Jyxhw==
+preact-render-to-string@^6.5.7:
+  version "6.5.7"
+  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.7.tgz#bcac92695c21ad67a04e7b03d506ea95e10eade2"
+  integrity sha512-nACZDdv/ZZciuldVYMcfGqr61DKJeaAfPx96hn6OXoBGhgtU2yGQkA0EpTzWH4SvnwF0syLsL4WK7AIp3Ruc1g==
 
 preact@^10.22.1:
   version "10.22.1"
