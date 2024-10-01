@@ -319,7 +319,7 @@ exports[`<Home /> should render all components 1`] = `
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Hexagon Mining
+                  Why so curious?
                 </a>
                 <span
                   class="inline-flex gap-x-1"
@@ -333,7 +333,7 @@ exports[`<Home /> should render all components 1`] = `
                   rel="noreferrer"
                   target="_blank"
                 >
-                  2014 - 2015
+                  20?? - 20??
                 </a>
               </div>
             </div>
@@ -345,7 +345,7 @@ exports[`<Home /> should render all components 1`] = `
                 rel="noreferrer"
                 target="_blank"
               >
-                .Net Developer
+                Nope
               </a>
             </h4>
           </div>
@@ -357,7 +357,7 @@ exports[`<Home /> should render all components 1`] = `
               rel="noreferrer"
               target="_blank"
             >
-              Development of applications for the main mining companies in the country, focusing on managing iron ore production and online control of all machines using .NET stack, SQL Server, Postgres, and internal network protocols.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque ligula nec accumsan imperdiet. Praesent imperdiet ut nibh quis pellentesque. Morbi cursus ut urna in euismod. Curabitur vulputate sagittis est, vel venenatis nunc efficitur et. Sed pretium nisl et enim tempor, ut pharetra augue porta. Vestibulum scelerisque tortor magna, vel cursus turpis faucibus dapibus. Phasellus vitae dictum urna, a condimentum lorem. Cras vehicula laoreet justo, nec commodo enim viverra a.
             </a>
           </div>
         </div>
