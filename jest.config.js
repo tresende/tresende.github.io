@@ -12,6 +12,6 @@ module.exports = {
     '!src/utils/convetToFirestore.ts'
   ],
   extensionsToTreatAsEsm: ['.ts'],
-  setupFilesAfterEnv: ['./.jest/setup.ts'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/', '<rootDir>/.jest']
 }
