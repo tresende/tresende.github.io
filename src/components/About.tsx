@@ -1,11 +1,13 @@
+const INITIAL_YEAR = 2011
+
 export default function About() {
   return (
     <section className="flex min-h-0 flex-col gap-y-3">
       <h2 className="text-xl font-bold">About</h2>
       <p className="text-pretty font-mono text-sm text-muted-foreground">
-        With over {new Date().getFullYear() - 2011} years of software development experience, I am a senior software
-        engineer passionate about creating innovative and highly scalable solutions. My goal is to leverage my software
-        engineering skills to deliver high-quality, high-performance, and easy-to-use products.
+        With over {new Date().getFullYear() - INITIAL_YEAR} years of software development experience, I am a senior
+        software engineer passionate about creating innovative and highly scalable solutions. My goal is to leverage my
+        software engineering skills to deliver high-quality, high-performance, and easy-to-use products.
       </p>
       <p className="text-pretty font-mono text-sm text-muted-foreground">
         I am currently working on a high-traffic application using Java, Kotlin, and microservices. This project
