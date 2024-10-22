@@ -24,7 +24,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "jest-cli": "^29.7.0",
-    "next": "^14.2.15",
+    "next": "^15.0.0",
     "next-seo": "^6.6.0",
     "preact": "^10.24.3",
     "preact-render-to-string": "^6.5.11",
