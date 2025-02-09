@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @keyframes blink {
   0% {
@@ -54,11 +52,10 @@
 
 .not-found-page {
   animation: changeBackgroundColor 10s linear infinite;
-  text-shadow:
-    -2px 0 white,
-    0 2px white,
-    2px 0 white,
-    0 -2px white;
+  text-shadow: -2px 0 white,
+  0 2px white,
+  2px 0 white,
+  0 -2px white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,8 +66,7 @@
 .image {
   margin-top: 4rem;
   animation: rotating 4s linear infinite;
-  filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white)
-    drop-shadow(-2px -2px 0 white);
+  filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white);
 }
 
 @media (prefers-color-scheme: dark) {
