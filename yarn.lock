@@ -4608,10 +4608,10 @@ preact-render-to-string@6.5.13:
   resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.13.tgz#cb9eb4a0df3576e7bfd78ef5f3d3bd57480e79ee"
   integrity sha512-iGPd+hKPMFKsfpR2vL4kJ6ZPcFIoWZEcBf0Dpm3zOpdVvj77aY8RlLiQji5OMrngEyaxGogeakTb54uS2FvA6w==
 
-preact@10.26.2:
-  version "10.26.2"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.26.2.tgz#d737055584a4d8004ec273e425fb4c30960aa512"
-  integrity sha512-0gNmv4qpS9HaN3+40CLBAnKe0ZfyE4ZWo5xKlC1rVrr0ckkEvJvAQqKaHANdFKsGstoxrY4AItZ7kZSGVoVjgg==
+preact@10.26.3:
+  version "10.26.3"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.26.3.tgz#ee75b4215af706e1d0a47f9170b3dafc0f5f70d7"
+  integrity sha512-OJCfNTdttkOTCbTN+gCnXn/woDqz1dIjvP+gdCoYGP2kKuX6w79FAP8qgY/r7jgAunvqHVVmEOKzKOFWzrXZdw==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -5305,11 +5305,6 @@ synckit@^0.9.1:
   dependencies:
     "@pkgr/core" "^0.1.0"
     tslib "^2.6.2"
-
-tailwindcss@4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.0.8.tgz#25d7fed091aacd16e2a3b8b86d51eea0a482fb1c"
-  integrity sha512-Me7N5CKR+D2A1xdWA5t5+kjjT7bwnxZOE6/yDI/ixJdJokszsn2n++mdU5yJwrsTpqFX2B9ZNMBJDwcqk9C9lw==
 
 tailwindcss@4.0.9:
   version "4.0.9"
