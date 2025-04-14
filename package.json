@@ -29,7 +29,7 @@
     "next-seo": "6.6.0",
     "preact": "10.26.5",
     "preact-render-to-string": "6.5.13",
-    "react": "19.0.0",
+    "react": "19.1.0",
     "react-dom": "19.0.0"
   },
   "devDependencies": {
@@ -42,7 +42,7 @@
     "@types/cors": "2.8.17",
     "@types/jest": "29.5.14",
     "@types/node": "22.14.1",
-    "@types/react": "18.3.20",
+    "@types/react": "19.1.1",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "autoprefixer": "10.4.21",
