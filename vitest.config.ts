@@ -16,9 +16,10 @@ export default defineConfig({
     setupFiles: './.vitest/setup.ts',
     include: ['src/**/test.{js,ts,jsx,tsx}'],
     globals: true,
+    reporters: ['default'],
     coverage: {
-      provider: 'v8',
       reporter: ['text', 'lcov'],
+      reportsDirectory: path.resolve(__dirname, './coverage'),
       include: ['src/**/*.ts', 'src/**/*.tsx'],
       exclude: [
         'src/pages/**/*.ts(x)?',
