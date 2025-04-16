@@ -1,7 +1,7 @@
 ![](https://badges.aleen42.com/src/react.svg)
 ![](https://coveralls.io/repos/github/tresende/tresende.github.io/badge.svg)
 ![](https://github.com/tresende/tresende.github.io/actions/workflows/main.yml/badge.svg)
-![](https://img.shields.io/badge/unit--test-jest-brightgreen)
+![](https://img.shields.io/badge/unit--test-vitest-brightgreen)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 ![](https://badges.aleen42.com/src/eslint.svg)
 

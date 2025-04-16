@@ -42,7 +42,7 @@ export default function Experience() {
           focused on user privacy, creating internal applications in React with TypeScript and features in existing
           products for end users, using Next, Meteor, and Vue.js to meet all demands of legislation such as GDPR, LGPD,
           cookie policy, etc. In the second project, I worked on a product vital for Hotmart business. Our stack
-          included React, Redux, Cypress, Jest, and Meteor.
+          included React, Redux, Cypress, Vitest, and Meteor.
         </div>
       </div>
       <hr />

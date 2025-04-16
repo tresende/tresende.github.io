@@ -27,6 +27,6 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".jest/setup.ts"
+    ".vitest/setup.ts"
   ]
 }

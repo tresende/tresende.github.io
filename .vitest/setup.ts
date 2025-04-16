@@ -1,5 +1,6 @@
 import '@testing-library/jest-dom'
+import { vi } from 'vitest'
 
 Object.defineProperty(HTMLMediaElement.prototype, 'muted', {
-  set: jest.fn()
+  set: vi.fn()
 })
