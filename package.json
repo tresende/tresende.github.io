@@ -38,7 +38,7 @@
     "@testing-library/react-hooks": "8.0.1",
     "@types/cors": "2.8.17",
     "@types/node": "22.14.1",
-    "@types/react": "19.1.1",
+    "@types/react": "19.1.2",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "@vitejs/plugin-react": "^4.4.0",
