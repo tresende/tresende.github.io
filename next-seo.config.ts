@@ -1,6 +1,6 @@
 export default {
   title: 'Thiago Resende',
-  titleTemplate: '%s | Thiago Resende',
+  titleTemplate: '%s | Software Engineer',
   defaultTitle: 'Thiago Resende',
   description: 'Senior software engineer with over 14 years of experience building scalable and innovative solutions using Java, Kotlin, Node.js, and modern web technologies.',
   canonical: 'https://www.thiagoresende.com',
