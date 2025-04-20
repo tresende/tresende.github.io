@@ -2,7 +2,7 @@ export default {
   title: 'Thiago Resende',
   titleTemplate: '%s | Thiago Resende',
   defaultTitle: 'Thiago Resende',
-  description: 'Web developer focused on Java, Kotlin, Node.js, and modern architecture.',
+  description: 'Senior software engineer with over 14 years of experience building scalable and innovative solutions using Java, Kotlin, Node.js, and modern web technologies.',
   canonical: 'https://www.thiagoresende.com',
   openGraph: {
     type: 'website',
@@ -10,7 +10,7 @@ export default {
     url: 'https://www.thiagoresende.com',
     site_name: 'Thiago Resende',
     title: 'Thiago Resende',
-    description: 'Web developer focused on Java, Kotlin, Node.js, and modern architecture.',
+    description: 'Senior software engineer with over 14 years of experience building scalable and innovative solutions using Java, Kotlin, Node.js, and modern web technologies.',
     images: [
       {
         url: 'https://avatars.githubusercontent.com/u/32820963?v=4',
@@ -33,7 +33,7 @@ export default {
     },
     {
       name: 'keywords',
-      content: 'Java, Kotlin, Node.js, Developer, Backend, Web, Architecture, Spring, Engineering'
+      content: 'Java, Kotlin, Node.js, TypeScript, AWS, Microservices, Software Engineer, Backend, Web Development, Scalable Systems'
     }
   ],
   additionalLinkTags: [
