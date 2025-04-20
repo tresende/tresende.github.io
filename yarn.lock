@@ -919,7 +919,7 @@
     postcss "^8.4.41"
     tailwindcss "4.1.4"
 
-"@testing-library/dom@^10.4.0":
+"@testing-library/dom@10.4.0":
   version "10.4.0"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-10.4.0.tgz#82a9d9462f11d240ecadbf406607c6ceeeff43a8"
   integrity sha512-pemlzrSESWbdAloYml3bAJMEfNh1Z7EduzqPKprCH5S341frlpYnUEW0H72dLxa6IsYr+mPno20GiSm+h9dEdQ==
@@ -933,7 +933,7 @@
     lz-string "^1.5.0"
     pretty-format "^27.0.2"
 
-"@testing-library/jest-dom@^6.6.3":
+"@testing-library/jest-dom@6.6.3":
   version "6.6.3"
   resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-6.6.3.tgz#26ba906cf928c0f8172e182c6fe214eb4f9f2bd2"
   integrity sha512-IteBhl4XqYNkM54f4ejhLRJiZNqcSCoXUOG2CPK7qbD322KjQozM4kHQOfkG2oln9b9HTYqs+Sae8vBATubxxA==
@@ -954,7 +954,7 @@
     "@babel/runtime" "^7.12.5"
     react-error-boundary "^3.1.0"
 
-"@testing-library/react@^16.3.0":
+"@testing-library/react@16.3.0":
   version "16.3.0"
   resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-16.3.0.tgz#3a85bb9bdebf180cd76dba16454e242564d598a6"
   integrity sha512-kFSyxiEDwv1WLl2fgsq6pPBbw5aWKrsY2/noi1Id0TK0UParSF62oFQFGHXIyaG4pp2tEub/Zlel+fjjZILDsw==
@@ -1299,7 +1299,7 @@
   resolved "https://registry.yarnpkg.com/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.6.1.tgz#9d29459244399a783d7c41cb3852fb6d2d1c9e46"
   integrity sha512-uNnVmvDLZBDQ4sLFNTugTtzUH9LEoHXG46HdWaih+pK4knwi+wcz+nd0fQC92n/dH4PwPc5T8XArvlCKpfU6vQ==
 
-"@vitejs/plugin-react@^4.4.0":
+"@vitejs/plugin-react@4.4.1":
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-react/-/plugin-react-4.4.1.tgz#d7d1e9c9616d7536b0953637edfee7c6cbe2fe0f"
   integrity sha512-IpEm5ZmeXAP/osiBXVVP5KjFMzbWOonMs0NaQQl+xYnUAcq4oHUBsF2+p4MgKWG4YMmFYJU8A6sxRPuowllm6w==
@@ -1378,7 +1378,7 @@
   dependencies:
     tinyspy "^3.0.2"
 
-"@vitest/ui@^3.1.1":
+"@vitest/ui@3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-3.1.1.tgz#c832d9e07ee728b9464042458ba9b2638d8bd8bf"
   integrity sha512-2HpiRIYg3dlvAJBV9RtsVswFgUSJK4Sv7QhpxoP0eBGkYwzGIKP34PjaV00AULQi9Ovl6LGyZfsetxDWY5BQdQ==
@@ -3185,7 +3185,7 @@ js-yaml@^4.1.0:
   dependencies:
     argparse "^2.0.1"
 
-jsdom@^26.1.0:
+jsdom@26.1.0:
   version "26.1.0"
   resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-26.1.0.tgz#ab5f1c1cafc04bd878725490974ea5e8bf0c72b3"
   integrity sha512-Cvc9WUhxSMEo4McES3P7oK3QaXldCfNWp7pl2NNeiIFlCoLr3kfq9kb1fxftiwk1FLV7CvpvDfonxtzUDeSOPg==
@@ -4754,7 +4754,7 @@ vite-node@3.1.1:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vitest@^3.1.1:
+vitest@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/vitest/-/vitest-3.1.1.tgz#39fa2356e510513fccdc5d16465a9fc066ef1fc6"
   integrity sha512-kiZc/IYmKICeBAZr9DQ5rT7/6bD9G7uqQEki4fxazi1jdVl2mWGzedtBs5s6llz59yQhVb7FFY2MbHzHCnT79Q==
