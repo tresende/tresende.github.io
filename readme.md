@@ -14,8 +14,8 @@
 #### Main
 
 - Next
-- Preact/React
-- Webpack
+- React
+- Turbopack
 
 #### Style
 
