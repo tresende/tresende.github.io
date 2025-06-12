@@ -22,7 +22,7 @@
     "pre-commit": "npx lint-staged"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "4.1.9",
+    "@tailwindcss/postcss": "4.1.10",
     "cors": "2.8.5",
     "next": "15.3.3",
     "next-seo": "6.8.0",
