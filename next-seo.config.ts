@@ -2,7 +2,8 @@ export default {
   title: 'Thiago Resende',
   titleTemplate: '%s | Software Engineer',
   defaultTitle: 'Thiago Resende',
-  description: 'Senior software engineer with over 14 years of experience building scalable and innovative solutions using Java, Kotlin, Node.js, and modern web technologies.',
+  description:
+    'Senior software engineer with over 14 years of experience building scalable and innovative solutions using Java, Kotlin, Node.js, and modern web technologies.',
   canonical: 'https://www.thiagoresende.com',
   openGraph: {
     type: 'website',
@@ -10,7 +11,8 @@ export default {
     url: 'https://www.thiagoresende.com',
     site_name: 'Thiago Resende',
     title: 'Thiago Resende',
-    description: 'Senior software engineer with over 14 years of experience building scalable and innovative solutions using Java, Kotlin, Node.js, and modern web technologies.',
+    description:
+      'Senior software engineer with over 14 years of experience building scalable and innovative solutions using Java, Kotlin, Node.js, and modern web technologies.',
     images: [
       {
         url: 'https://avatars.githubusercontent.com/u/32820963?v=4',
@@ -33,7 +35,8 @@ export default {
     },
     {
       name: 'keywords',
-      content: 'Java, Kotlin, Node.js, TypeScript, AWS, Microservices, Software Engineer, Backend, Web Development, Scalable Systems'
+      content:
+        'Java, Kotlin, Node.js, TypeScript, AWS, Microservices, Software Engineer, Backend, Web Development, Scalable Systems'
     }
   ],
   additionalLinkTags: [
