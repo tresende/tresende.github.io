@@ -16,10 +16,10 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: '**/node_modules'
-          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
-      - run: yarn
-      - run: yarn type-check
-      - run: yarn test
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/package-lock.json') }}
+      - run: npm i
+      - run: npm run type-check
+      - run: npm t
       - name: Coveralls
         uses: coverallsapp/github-action@master
         with:

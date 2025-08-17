@@ -10,12 +10,12 @@
     "test": "vitest run --config ./vitest.config.ts  --coverage",
     "test:watch": "vitest --config ./vitest.config.ts --watch",
     "type-check": "tsc --project tsconfig.json --noEmit",
-    "test:dependa-bot": " yarn && yarn test -u && yarn lint && yarn type-check && yarn build",
-    "format": "yarn prettier --write ."
+    "test:dependa-bot": " npm i && npm t -u && npm run lint && npm run type-check && npm run build",
+    "format": "npm run prettier --write ."
   },
   "lint-staged": {
     ".": [
-      "yarn lint --fix"
+      "npm run lint --fix"
     ]
   },
   "simple-git-hooks": {
@@ -33,7 +33,6 @@
     "@testing-library/dom": "10.4.1",
     "@testing-library/jest-dom": "6.6.4",
     "@testing-library/react": "16.3.0",
-    "@testing-library/react-hooks": "8.0.1",
     "@types/cors": "2.8.19",
     "@types/node": "24.2.1",
     "@types/react": "19.1.8",
