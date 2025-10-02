@@ -8,7 +8,15 @@ import simpleImportSort from 'eslint-plugin-simple-import-sort'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-  globalIgnores(['build/**/*', '!build/test.js', '.next/**', 'public/**', 'postcss.config.js', 'tailwind.config.js']),
+  globalIgnores([
+    'build/**/*',
+    '!build/test.js',
+    '.next/**',
+    'public/**',
+    'postcss.config.js',
+    'tailwind.config.js',
+    'next-env.d.ts',
+  ]),
   js.configs.recommended,
 
   ...tseslint.configs.recommended,
