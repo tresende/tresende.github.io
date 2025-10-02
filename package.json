@@ -27,7 +27,7 @@
     "next": "15.5.4",
     "next-seo": "6.8.0",
     "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
     "@testing-library/dom": "10.4.1",
