@@ -14,7 +14,6 @@ export default defineConfig([
     '.next/**',
     'public/**',
     'postcss.config.js',
-    'tailwind.config.ts',
     'next-env.d.ts',
   ]),
   js.configs.recommended,
