@@ -1,5 +1,5 @@
 export default () => (
-  <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
+  <nav className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
     <a
       href="mailto:thiago.gcresende@gmail.com"
       aria-label="Email"
@@ -46,5 +46,5 @@ export default () => (
         ></path>
       </svg>
     </a>
-  </div>
+  </nav>
 )

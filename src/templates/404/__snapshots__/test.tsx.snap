@@ -13,14 +13,14 @@ exports[`<404 /> > should render all components 1`] = `
     <span>
       Ops... it looks like this page doesn\`t exist yet
     </span>
-    <div
+    <figure
       class="image"
     >
       <img
         alt="old man meme harold"
         src="/img/404.png"
       />
-    </div>
+    </figure>
   </main>
 </div>
 `;
