@@ -1,21 +1,13 @@
-// eslint.config.js
 import js from '@eslint/js'
-import tseslint from 'typescript-eslint'
+import { defineConfig, globalIgnores } from 'eslint/config'
+import prettier from 'eslint-plugin-prettier'
 import reactPlugin from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
-import prettier from 'eslint-plugin-prettier'
 import simpleImportSort from 'eslint-plugin-simple-import-sort'
-import { defineConfig, globalIgnores } from 'eslint/config'
+import tseslint from 'typescript-eslint'
 
 export default defineConfig([
-  globalIgnores([
-    'build/**/*',
-    '!build/test.js',
-    '.next/**',
-    'public/**',
-    'postcss.config.js',
-    'next-env.d.ts',
-  ]),
+  globalIgnores(['build/**/*', '!build/test.js', '.next/**', 'public/**', 'postcss.config.js', 'next-env.d.ts']),
   js.configs.recommended,
 
   ...tseslint.configs.recommended,
