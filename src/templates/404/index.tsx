@@ -1,4 +1,4 @@
-const Custom404 = () => (
+export default () => (
   <main className="not-found-page">
     <h1 className="text-3xl font-bold">404</h1>
     <span>Ops... it looks like this page doesn`t exist yet</span>
@@ -7,5 +7,3 @@ const Custom404 = () => (
     </div>
   </main>
 )
-
-export default Custom404
