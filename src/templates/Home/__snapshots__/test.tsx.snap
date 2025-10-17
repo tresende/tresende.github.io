@@ -178,7 +178,9 @@ exports[`<Home /> > should render all components 1`] = `
             I am currently working on a web portal developed to help all logistics involved in iFood operations around the world. This application is developed using Java, Kotlin, microservices, TypeScript, Webpack, Testing Library, aws, and nx monorepo.
           </div>
         </div>
-        <hr />
+        <hr
+          class="border-gray-200 dark:border-white"
+        />
         <div
           class="rounded-lg bg-card text-card-foreground"
         >
@@ -219,7 +221,9 @@ exports[`<Home /> > should render all components 1`] = `
             During my time at Hotmart, I worked as a senior frontend developer in two large projects. The first was focused on user privacy, creating internal applications in React with TypeScript and features in existing products for end users, using Next, Meteor, and Vue.js to meet all demands of legislation such as GDPR, LGPD, cookie policy, etc. In the second project, I worked on a product vital for Hotmart business. Our stack included React, Redux, Cypress, Vitest, and Meteor.
           </div>
         </div>
-        <hr />
+        <hr
+          class="border-gray-200 dark:border-white"
+        />
         <div
           class="rounded-lg bg-card text-card-foreground"
         >
@@ -260,7 +264,9 @@ exports[`<Home /> > should render all components 1`] = `
             At the beginning of my journey at DTI, I worked as a developer using .NET Core, Angular, and SQL Server. Soon after, I took on the role of technical leader for squads aimed at Vale, one of the largest mining companies in the world. We worked with a mix of recent technologies such as .NET Core (serverless), Protocol Buffers, Redis, Cosmos DB, and micro frontends (React and Angular) alongside traditional technologies like Java, SQL Server, and Power BI. We focused heavily on agile methodologies and used Scrum with adaptations for the client reality.
           </div>
         </div>
-        <hr />
+        <hr
+          class="border-gray-200 dark:border-white"
+        />
         <div
           class="rounded-lg bg-card text-card-foreground"
         >
@@ -301,7 +307,9 @@ exports[`<Home /> > should render all components 1`] = `
             During my time at IBM, I worked for two major players in the Brazilian automotive industry, FCA/Stellantis and Volkswagen. Initially, I worked as a full stack developer creating applications to improve supply chain management processes. These systems were mostly built in Java and Node.js on the backend and Angular and React on the frontend. Over time, I transitioned to software architecture, helping migrate and update these applications from FIAT internal data centers to AWS, initially using Beanstalk, Docker, and later Kubernetes. At Volkswagen, I developed a chatbot orchestrator to assist users with various internal processes. This application was built using Node.js, MongoDB, IBM Watson, and Angular, and was hosted on the IBM Cloud.
           </div>
         </div>
-        <hr />
+        <hr
+          class="border-gray-200 dark:border-white"
+        />
         <div
           class="rounded-lg bg-card text-card-foreground blur-sm"
         >

@@ -53,7 +53,7 @@ export default () => (
           </div>
           <div className="text-pretty font-mono text-muted-foreground mt-2 text-xs">{description}</div>
         </div>
-        <hr />
+        <hr className="border-gray-200 dark:border-white" />
       </Fragment>
     ))}
     <div className="rounded-lg bg-card text-card-foreground blur-sm">
