@@ -29,14 +29,8 @@ export default defineConfig([
       'simple-import-sort': simpleImportSort
     },
     rules: {
-      'react/no-unescaped-entities': 'off',
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
-      'react/prop-types': 'off',
-      'react/react-in-jsx-scope': 'off',
-      '@typescript-eslint/explicit-module-boundary-types': 'off',
-      '@typescript-eslint/no-non-null-assertion': 'off',
-      'react/display-name': 'off',
       'simple-import-sort/imports': [
         'warn',
         {
