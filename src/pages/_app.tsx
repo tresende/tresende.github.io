@@ -1,6 +1,6 @@
 import '../styles/global.css'
 import Head from 'components/Head'
-import { AppProps } from 'next/dist/shared/lib/router/router'
+import { AppProps } from 'next/app'
 import { generateNextSeo } from 'next-seo/pages'
 
 import SEO from '../../next-seo.config'
