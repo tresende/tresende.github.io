@@ -9,7 +9,6 @@ import tseslint from 'typescript-eslint'
 export default defineConfig([
   globalIgnores(['build/**/*', '!build/test.js', '.next/**', 'public/**', 'postcss.config.js', 'next-env.d.ts']),
   js.configs.recommended,
-
   ...tseslint.configs.recommended,
   {
     files: ['**/*.ts', '**/*.tsx'],
