@@ -21,10 +21,10 @@ export default defineConfig([
       }
     },
     plugins: {
+      prettier,
       '@typescript-eslint': tseslint.plugin,
       react: reactPlugin,
       'react-hooks': reactHooks,
-      prettier,
       'simple-import-sort': simpleImportSort
     },
     rules: {
