@@ -59,7 +59,7 @@
     "simple-git-hooks": "2.13.1",
     "tailwindcss": "4.1.17",
     "typescript": "5.9.3",
-    "typescript-eslint": "^8.46.1",
+    "typescript-eslint": "^8.47.0",
     "vitest": "4.0.12"
   },
   "optionalDependencies": {
