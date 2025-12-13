@@ -26,7 +26,7 @@
     "cors": "2.8.5",
     "next": "16.0.10",
     "next-seo": "7.0.1",
-    "react": "19.2.1",
+    "react": "19.2.3",
     "react-dom": "19.2.1"
   },
   "devDependencies": {
