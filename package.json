@@ -39,8 +39,8 @@
     "@typescript-eslint/eslint-plugin": "8.50.0",
     "@typescript-eslint/parser": "8.50.0",
     "@vitejs/plugin-react": "5.1.2",
-    "@vitest/coverage-v8": "4.0.15",
-    "@vitest/ui": "4.0.15",
+    "@vitest/coverage-v8": "4.0.16",
+    "@vitest/ui": "4.0.16",
     "autoprefixer": "10.4.23",
     "eslint": "9.39.2",
     "eslint-config-next": "16.0.10",
@@ -60,9 +60,10 @@
     "tailwindcss": "4.1.18",
     "typescript": "5.9.3",
     "typescript-eslint": "^8.50.0",
-    "vitest": "4.0.15"
+    "vitest": "4.0.16"
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.53.5"
-  }
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }
