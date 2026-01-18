@@ -116,7 +116,7 @@ exports[`<Home /> > should render all components 1`] = `
           class="text-pretty font-mono text-sm text-muted-foreground"
         >
           With over 
-          14
+          15
            years of software development experience, I am a senior software engineer passionate about creating innovative and highly scalable solutions. My goal is to leverage my software engineering skills to deliver high-quality, high-performance, and easy-to-use products.
         </p>
         <p
