@@ -53,7 +53,7 @@
     "jsdom": "27.4.0",
     "lint-staged": "16.2.7",
     "postcss": "8.5.6",
-    "prettier": "3.8.0",
+    "prettier": "3.8.1",
     "simple-git-hooks": "2.13.1",
     "tailwindcss": "4.1.18",
     "typescript": "5.9.3",
