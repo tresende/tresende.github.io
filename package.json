@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "4.1.18",
-    "cors": "2.8.5",
+    "cors": "2.8.6",
     "next": "16.1.4",
     "next-seo": "7.0.1",
     "react": "19.2.3",
