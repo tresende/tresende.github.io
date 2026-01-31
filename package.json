@@ -37,8 +37,8 @@
     "@types/node": "25.0.10",
     "@types/react": "19.2.9",
     "@vitejs/plugin-react": "5.1.2",
-    "@vitest/coverage-v8": "4.0.17",
-    "@vitest/ui": "4.0.17",
+    "@vitest/coverage-v8": "4.0.18",
+    "@vitest/ui": "4.0.18",
     "autoprefixer": "10.4.23",
     "eslint": "9.39.2",
     "eslint-config-next": "16.1.4",
@@ -58,7 +58,7 @@
     "tailwindcss": "4.1.18",
     "typescript": "5.9.3",
     "typescript-eslint": "8.53.1",
-    "vitest": "4.0.17"
+    "vitest": "4.0.18"
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.53.5"
