@@ -15,7 +15,7 @@ const experiences = [
     url: 'https://hotmart.com',
     role: 'Senior Software Engineer',
     period: '2020 - 2021',
-    description: `During my time at Hotmart, I worked as a senior frontend developer in two large projects. The first was focused on user privacy, creating internal applications in React with TypeScript and features in existing products for end users, using Next, Meteor, and Vue.js to meet all demands of legislation such as GDPR, LGPD, cookie policy, etc. In the second project, I worked on a product vital for Hotmart business. Our stack included React, Redux, Cypress, Vitest, and Meteor.`
+    description: `During my time at Hotmart, I worked as a senior software engineer in two large projects. The first was focused on user privacy, creating internal applications in React with TypeScript and features in existing products for end users, using Next, Meteor, and Vue.js to meet all demands of legislation such as GDPR, LGPD, cookie policy, etc. In the second project, I worked on a product vital for Hotmart business. Our stack included React, Node, Cypress, Vitest, and Meteor.`
   },
   {
     company: 'dti digital',
