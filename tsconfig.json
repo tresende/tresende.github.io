@@ -21,8 +21,7 @@
     "incremental": true
   },
   "exclude": [
-    "node_modules",
-    "eslint.config.ts"
+    "node_modules"
   ],
   "include": [
     "next-env.d.ts",

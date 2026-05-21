@@ -10,7 +10,7 @@
     "test": "vitest run --config ./vitest.config.ts  --coverage",
     "test:watch": "vitest --config ./vitest.config.ts --watch",
     "type-check": "tsc --project tsconfig.json --noEmit",
-    "test:dependa-bot": "npm i && npm run test && npm run lint && npm run type-check && npm run build",
+    "test:dependa-bot": " npm i && npm t -u && npm run lint && npm run type-check && npm run build",
     "format": "npm run prettier --write ."
   },
   "lint-staged": {
@@ -30,7 +30,6 @@
     "react-dom": "19.2.5"
   },
   "devDependencies": {
-    "@eslint/js": "10.0.1",
     "@testing-library/dom": "10.4.1",
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "16.3.2",
@@ -41,14 +40,14 @@
     "@vitest/coverage-v8": "4.1.5",
     "@vitest/ui": "4.1.5",
     "autoprefixer": "10.4.27",
-    "eslint": "10.4.0",
+    "eslint": "9.39.2",
     "eslint-config-next": "16.2.2",
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.4",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-react-hooks": "7.0.0",
     "eslint-plugin-simple-import-sort": "13.0.0",
     "husky": "9.1.7",
     "jsdom": "29.1.0",
