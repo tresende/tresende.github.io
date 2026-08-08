@@ -1,7 +1,7 @@
 import js from '@eslint/js'
+import type { ESLint } from 'eslint'
 import { defineConfig, globalIgnores } from 'eslint/config'
 import prettier from 'eslint-plugin-prettier'
-import reactPlugin from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import simpleImportSort from 'eslint-plugin-simple-import-sort'
 import tseslint from 'typescript-eslint'
@@ -23,8 +23,7 @@ export default defineConfig([
     plugins: {
       prettier,
       '@typescript-eslint': tseslint.plugin,
-      react: reactPlugin,
-      'react-hooks': reactHooks,
+      'react-hooks': reactHooks as ESLint.Plugin,
       'simple-import-sort': simpleImportSort
     },
     rules: {
@@ -41,11 +40,6 @@ export default defineConfig([
         }
       ],
       'prettier/prettier': 'warn'
-    },
-    settings: {
-      react: {
-        version: 'detect'
-      }
     }
   }
 ])
