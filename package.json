@@ -38,8 +38,8 @@
     "@types/node": "26.2.0",
     "@types/react": "19.2.18",
     "@vitejs/plugin-react": "6.0.5",
-    "@vitest/coverage-v8": "4.1.10",
-    "@vitest/ui": "4.1.10",
+    "@vitest/coverage-v8": "4.1.12",
+    "@vitest/ui": "4.1.12",
     "autoprefixer": "10.5.4",
     "eslint": "10.8.1",
     "eslint-config-prettier": "10.1.8",
@@ -55,7 +55,7 @@
     "tailwindcss": "4.3.3",
     "typescript": "6.0.3",
     "typescript-eslint": "8.67.0",
-    "vitest": "4.1.10"
+    "vitest": "4.1.12"
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.53.5"
